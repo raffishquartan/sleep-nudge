@@ -5,9 +5,10 @@ Rules:
 - Distribute topics across these domains over time: hormonal regulation, immune function, synaptic plasticity and memory consolidation, glymphatic clearance, cardiovascular health, pain modulation, emotional regulation, metabolic health, DNA repair, gut microbiome, creativity and insight, reproductive health, wound healing, athletic performance, perceptual processing, accident risk.
 - Explain the biological or neural mechanism, not just the outcome.
 - Quantify the effect where peer-reviewed evidence supports it (odds ratios, percentage changes, experimental deltas).
-- Cite at least one peer-reviewed source with author(s), year, journal, and DOI or URL.
+- Cite at least one peer-reviewed source with author(s), year, journal, and DOI or URL inline.
 - Keep the scientific section to one paragraph of approximately 100-180 words.
 - Follow with a shorter plain-language section (2-4 sentences) that frames the immediate personal relevance for someone deciding whether to go to bed now.
+- After the plain-language section, add a "References" section listing every cited work. For each reference, provide a direct link to the full text if freely available (e.g., PMC, journal open access). If no free full text exists, link to the paper on arxiv.org if available, otherwise link to the Google Scholar search page for that paper. Format each entry as: Author(s) (Year). Title. Journal. URL
 - End the passage with a horizontal rule (---).
 - No fluff, no motivational language, no greeting, no sign-off, no invented claims.
 - Write in plain text suitable for an email body.
