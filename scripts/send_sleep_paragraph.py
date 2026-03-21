@@ -25,19 +25,20 @@ def main():
 
     gmail_address = os.environ["GMAIL_ADDRESS"]
     gmail_app_password = os.environ["GMAIL_APP_PASSWORD"]
+    recipient_address = os.environ["RECIPIENT_ADDRESS"]
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     msg = MIMEText(body)
     msg["Subject"] = f"[Cld] Sleep Nudge \u2014 {today}"
     msg["From"] = gmail_address
-    msg["To"] = gmail_address
+    msg["To"] = recipient_address
 
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
         server.login(gmail_address, gmail_app_password)
         server.send_message(msg)
 
-    print(f"Email sent to {gmail_address}")
+    print(f"Email sent to {recipient_address}")
 
 
 if __name__ == "__main__":

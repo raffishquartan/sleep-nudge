@@ -7,8 +7,9 @@ A GitHub Actions workflow that runs daily at 22:00 UTC, calls the Anthropic API 
 1. **Gmail App Password**: Enable 2-Step Verification, then create an App Password at https://myaccount.google.com/apppasswords
 2. **Add GitHub Secrets** (`Settings > Secrets and variables > Actions`):
    - `ANTHROPIC_API_KEY` - your Anthropic API key
-   - `GMAIL_ADDRESS` - your Gmail address (sender and recipient)
-   - `GMAIL_APP_PASSWORD` - the 16-character App Password
+   - `GMAIL_ADDRESS` - the dedicated sender Gmail address
+   - `GMAIL_APP_PASSWORD` - the sender account's 16-character App Password
+   - `RECIPIENT_ADDRESS` - your personal email (where you want to receive the nudge)
 3. **Test**: Go to Actions tab, select "Sleep Paragraph", click "Run workflow"
 
 ## Cost
