@@ -28,7 +28,7 @@ def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     msg = MIMEText(body)
-    msg["Subject"] = f"Sleep Nudge \u2014 {today}"
+    msg["Subject"] = f"[Cld] Sleep Nudge \u2014 {today}"
     msg["From"] = gmail_address
     msg["To"] = gmail_address
 
