@@ -50,3 +50,12 @@ def load_state(path: Path) -> list[str]:
 
 def save_state(path: Path, state: list[str]) -> None:
     path.write_text(json.dumps(state, indent=2) + "\n")
+
+
+def validate_bank(day_map: dict[str, list[str]], bank: dict[str, list[str]]) -> None:
+    referenced = {c for cats in day_map.values() for c in cats}
+    missing = referenced - set(bank.keys())
+    if missing:
+        raise ValueError(
+            f"Categories referenced in day-map but missing from bank: {sorted(missing)}"
+        )

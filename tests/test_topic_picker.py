@@ -15,6 +15,7 @@ from scripts.topic_picker import (
     pick_stub,
     save_state,
     update_state,
+    validate_bank,
 )
 
 
@@ -99,3 +100,16 @@ def test_save_state_round_trip(tmp_path):
     p = tmp_path / "state.json"
     save_state(p, ["a", "b"])
     assert json.loads(p.read_text()) == ["a", "b"]
+
+
+def test_validate_bank_passes_when_all_categories_present():
+    day_map = {"monday": ["a", "b"]}
+    bank = {"a": ["s1"], "b": ["s2"]}
+    validate_bank(day_map, bank)
+
+
+def test_validate_bank_raises_on_missing_category():
+    day_map = {"monday": ["a", "missing"]}
+    bank = {"a": ["s1"]}
+    with pytest.raises(ValueError, match="missing"):
+        validate_bank(day_map, bank)
