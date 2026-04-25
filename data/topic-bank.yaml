@@ -1,0 +1,341 @@
+cardiovascular:
+  - Heart rate variability and parasympathetic recovery during NREM sleep
+  - Nocturnal blood pressure dipping and 24-hour cardiovascular risk
+  - Non-dipping nocturnal hypertension as an independent stroke predictor
+  - Obstructive sleep apnoea and intermittent hypoxia driving endothelial dysfunction
+  - Atrial fibrillation incidence and fragmented sleep architecture
+  - Coronary artery calcification progression in chronic short sleepers
+  - Carotid intima-media thickness and habitual sleep duration
+  - Baroreflex sensitivity recalibration across the sleep cycle
+  - Nocturnal sympathetic surges and morning cardiovascular event clustering
+  - Pulse wave velocity and arterial stiffening in shift workers
+  - Left ventricular hypertrophy risk with chronic insufficient sleep
+  - Heart failure decompensation and disrupted sleep continuity
+  - Endothelial nitric oxide bioavailability and slow-wave sleep
+  - Coronary microvascular function after a single night of sleep restriction
+  - Cardiac vagal withdrawal during REM sleep and arrhythmia susceptibility
+  - Sleep duration U-curve and all-cause cardiovascular mortality
+  - Resting heart rate elevation as an early marker of poor sleep quality
+  - Platelet reactivity and thrombotic risk under sleep deprivation
+  - Plasma volume regulation and overnight diuresis via atrial natriuretic peptide
+  - Cold pressor response and central sympathetic outflow after lost sleep
+  - Endothelin-1 release in obstructive sleep apnoea
+  - Cardiac troponin elevation following acute sleep deprivation
+  - Sleep-disordered breathing and pulmonary hypertension progression
+  - Aldosterone resistance and treatment-refractory hypertension in apnoea
+  - Sleep stage transitions and ectopic beat frequency
+  - Postprandial lipaemia and sleep timing alignment
+  - Diastolic dysfunction and habitual late-night sleep onset
+  - Vagal tone reconstitution during deep sleep after exercise
+  - Coronary plaque vulnerability markers and circadian disruption
+  - Sympathovagal balance during sleep onset and cardiovascular reactivity
+metabolic:
+  - Insulin sensitivity decline after a single night of partial sleep loss
+  - Hepatic gluconeogenesis suppression during the overnight fast
+  - Mitochondrial respiratory capacity in skeletal muscle and sleep duration
+  - Brown adipose tissue thermogenesis and sleep-related core temperature drop
+  - Free fatty acid mobilisation across NREM and REM stages
+  - Postprandial glucose excursion amplitude after sleep restriction
+  - Adiponectin secretion rhythm and metabolic flexibility
+  - Lipoprotein lipase activity and overnight triglyceride clearance
+  - Pancreatic beta-cell function under chronic circadian misalignment
+  - Glycogen replenishment in liver and muscle during sleep
+  - Visceral adiposity accumulation and habitual short sleep
+  - Energy expenditure suppression during recovery sleep
+  - HbA1c trajectories in adults sleeping fewer than six hours
+  - Type 2 diabetes incidence and sleep duration extremes
+  - Skeletal muscle insulin signalling and IRS-1 phosphorylation overnight
+  - Intermittent hypoxia in apnoea and hepatic insulin resistance
+  - Cholesterol biosynthesis rhythm and SREBP-2 activity at night
+  - Bile acid pool composition and overnight enterohepatic recycling
+  - White adipose tissue lipolysis and circadian clock genes
+  - Nocturnal eating syndrome and impaired glucose tolerance
+  - Resting metabolic rate suppression after chronic sleep restriction
+  - Substrate oxidation switching across the sleep period
+  - Mitochondrial biogenesis signalling via PGC-1alpha overnight
+  - AMPK activation patterns and sleep-driven energy sensing
+  - Liver triglyceride accumulation under sleep deprivation
+  - Branched-chain amino acid metabolism and sleep architecture
+  - Postprandial thermogenesis blunting after late-night meals
+  - Glucose effectiveness independent of insulin and sleep loss
+  - Body fat distribution shifts under chronic circadian disruption
+  - Resistant starch fermentation timing and glycaemic control
+cognitive:
+  - Hippocampal sharp-wave ripples and overnight declarative memory consolidation
+  - Synaptic homeostasis and global downscaling during slow-wave sleep
+  - Sleep spindles and motor skill memory stabilisation
+  - Prefrontal cortex glucose metabolism after sleep deprivation
+  - Sustained attention decrement on the psychomotor vigilance task
+  - Executive function and working memory capacity under sleep loss
+  - Insight problem-solving gains following a night of sleep
+  - Creative recombination during REM-rich late-morning sleep
+  - Default mode network reorganisation across the sleep cycle
+  - Fluid intelligence performance and prior-night sleep duration
+  - Cognitive flexibility and set-shifting after partial sleep restriction
+  - Decision-making bias toward risk after acute sleep loss
+  - Language learning gains consolidated by overnight sleep
+  - Statistical learning of regularities during sleep
+  - Mental rotation accuracy and sleep continuity
+  - Reading comprehension and attentional lapses with poor sleep
+  - Mathematical insight and overnight rule extraction
+  - Cognitive reserve in older adults and sleep efficiency
+  - Mind-wandering frequency and prior-night sleep quality
+  - Prospective memory failures after chronic sleep restriction
+  - Inhibitory control and prepotent response suppression after sleep loss
+  - Goal maintenance in working memory and sleep duration
+  - Metacognitive accuracy and confidence calibration after sleep loss
+  - Episodic future thinking and overnight schema integration
+  - Cognitive throughput on serial reaction time tasks
+  - Verbal fluency decrements after sustained wakefulness
+  - Spatial navigation accuracy following hippocampus-dependent learning sleep
+  - Cognitive performance variability and the lapse domain hypothesis
+  - Mild cognitive impairment progression and sleep fragmentation
+  - Childhood academic performance and school-night sleep duration
+emotional:
+  - Amygdala hyperreactivity to negative stimuli after sleep deprivation
+  - Medial prefrontal top-down regulation of amygdala in well-rested brains
+  - REM sleep and emotional memory depotentiation
+  - Mood stability and the relationship between sleep and bipolar episodes
+  - Major depressive disorder onset risk and chronic insomnia
+  - Anxiety symptom amplification after restricted sleep
+  - Suicidal ideation risk and nightmares
+  - PTSD symptom maintenance and disrupted REM sleep
+  - Social withdrawal and loneliness following sleep loss
+  - Empathic accuracy and facial emotion recognition after poor sleep
+  - Positive affect blunting after chronic insufficient sleep
+  - Negative interpretation bias and sleep deprivation
+  - Reward sensitivity and ventral striatum activity after sleep loss
+  - Frustration tolerance and emotional reactivity in adolescents
+  - Maternal mood and infant sleep co-regulation
+  - Emotional contagion susceptibility under sleep restriction
+  - Stress recovery kinetics and slow-wave sleep
+  - Rumination intensity and pre-sleep cognitive arousal
+  - Self-referential processing and the medial prefrontal cortex overnight
+  - Attentional bias toward threat in anxiety after disrupted sleep
+  - Insomnia and the bidirectional relationship with depression
+  - Emotion granularity and sleep quality
+  - Anhedonia severity and REM sleep abnormalities
+  - Childhood emotional regulation and sleep consolidation
+  - Adolescent suicidality and weekend sleep delay
+  - Postpartum mood disorders and sleep fragmentation
+  - Therapy outcomes for depression and concurrent insomnia treatment
+  - Loneliness and altered sleep architecture in older adults
+  - Emotional dampening of dreams across the night
+  - Affective forecasting accuracy after a night without sleep
+immune:
+  - Natural killer cell cytotoxicity decline after one night of lost sleep
+  - T-cell integrin activation and lymph node trafficking during sleep
+  - Antibody titre response to influenza vaccination and prior-week sleep
+  - Slow-wave sleep and antigen-specific T-cell memory formation
+  - IL-6 elevation in plasma after sleep deprivation
+  - TNF-alpha rhythmicity and chronic low-grade inflammation
+  - C-reactive protein levels and habitual short sleep
+  - Common cold susceptibility and self-reported sleep duration
+  - NLRP3 inflammasome activation and sleep loss
+  - Th17 lineage skewing under chronic sleep restriction
+  - Regulatory T-cell numbers and sleep efficiency
+  - Wound healing rates and pre-procedural sleep quality
+  - Epstein-Barr virus reactivation in chronic insomnia
+  - Sepsis mortality and sleep disruption in intensive care
+  - Cancer immunosurveillance and night-shift work
+  - Mucosal IgA secretion and circadian rhythm
+  - Granulocyte mobilisation and the cortisol awakening response
+  - Vaccine durability and sleep in the days following immunisation
+  - Allergic rhinitis severity and sleep-disordered breathing
+  - Asthma exacerbation timing and nocturnal airway inflammation
+  - Eosinophil count rhythms across sleep and wake
+  - Autoimmune flare frequency and sleep continuity
+  - Macrophage polarisation toward M1 under sleep loss
+  - Latent virus reactivation markers and sleep deprivation
+  - Tumour growth kinetics in models of chronic sleep fragmentation
+  - Innate immune training memory and sleep architecture
+  - Neutrophil extracellular trap formation and sleep deprivation
+  - HIV viral load fluctuation and sleep quality
+  - Post-surgical infection rates and pre-operative sleep
+  - Inflammatory cytokine profile after a single night of total sleep deprivation
+hormonal:
+  - Pituitary growth hormone pulsatility during slow-wave sleep
+  - Diurnal cortisol rhythm and the cortisol awakening response
+  - Testosterone secretion and the first three hours of nocturnal sleep
+  - Oestrogen pulsatility and sleep architecture across the menstrual cycle
+  - Progesterone elevation and luteal-phase sleep changes
+  - Melatonin synthesis in the pineal gland and light-driven suppression
+  - Leptin secretion amplitude and overnight satiety signalling
+  - Ghrelin elevation in plasma after restricted sleep
+  - Thyroid stimulating hormone nocturnal surge and sleep onset
+  - Prolactin secretion peaks during late-night sleep
+  - Adrenocorticotropic hormone pulsatile release and sleep stages
+  - Vasopressin secretion overnight and antidiuretic regulation
+  - Oxytocin release during sleep and pair bonding
+  - Insulin-like growth factor-1 trajectories and chronic short sleep
+  - Reproductive hormone disruption in shift workers
+  - Cortisol slope flattening and chronic stress sleep loss
+  - Sex hormone-binding globulin rhythms and sleep timing
+  - DHEA-S levels and ageing-related sleep changes
+  - Adrenaline and noradrenaline secretion across sleep stages
+  - Renin-angiotensin-aldosterone system rhythmicity across the sleep period
+  - Parathyroid hormone and overnight calcium homeostasis
+  - Erythropoietin nocturnal rhythm and altitude adaptation
+  - Atrial natriuretic peptide release during slow-wave sleep
+  - Pubertal hormone surges and adolescent sleep architecture
+  - Menopausal hot flashes and nocturnal sleep fragmentation
+  - Postpartum prolactin and infant night feeding rhythms
+  - Glucocorticoid receptor sensitivity and sleep restriction
+  - Anterior pituitary hormone coordination during the first sleep cycle
+  - Endogenous opioid release and the analgesic state of deep sleep
+  - Sleep-driven entrainment of peripheral endocrine clocks
+neurological:
+  - Perivascular AQP4 polarisation and glymphatic exchange efficiency
+  - CSF-ISF exchange amplitude during NREM slow-wave sleep
+  - Lateral sleep position and overnight glymphatic flux
+  - Microglial pruning of weak synapses during sleep
+  - Amyloid-beta production and clearance kinetics across wake and sleep
+  - Tau phosphorylation patterns and slow-wave activity
+  - Alpha-synuclein aggregation risk in REM sleep behaviour disorder
+  - Microsleep intrusions and lapses during sustained wakefulness
+  - Seizure threshold modulation across sleep stages
+  - Hippocampal volume preservation and sleep continuity in older adults
+  - White matter integrity and chronic short sleep
+  - Myelination dynamics in oligodendrocytes during sleep
+  - Blood-brain barrier permeability and sleep deprivation
+  - Astrocyte calcium signalling across the sleep-wake transition
+  - Cortical down-states and neuronal metabolic recovery
+  - Adenosine accumulation and sleep pressure homeostasis
+  - Locus coeruleus activity and noradrenergic withdrawal in NREM
+  - Orexin neuron firing and the wake-sleep switch
+  - Dopaminergic substantia nigra rhythmicity and sleep stages
+  - Thalamocortical sleep spindle generation and reticular nucleus
+  - Brain temperature drop during deep sleep
+  - Cerebral blood flow redistribution across sleep stages
+  - Cortical excitability rebound during sleep deprivation
+  - Frontoparietal connectivity changes after acute sleep loss
+  - Migraine attack triggering and sleep disruption
+  - Epilepsy seizure clustering across the sleep cycle
+  - Stroke recovery trajectories and post-stroke sleep architecture
+  - Multiple sclerosis lesion activity and sleep quality
+  - Parkinsonian motor symptom fluctuation and overnight sleep
+  - Cerebral lactate clearance during slow-wave sleep
+gut:
+  - Gut microbiome alpha diversity and habitual sleep duration
+  - Firmicutes to Bacteroidetes ratio shifts under sleep restriction
+  - Intestinal barrier permeability and sleep deprivation
+  - LPS translocation and metabolic endotoxaemia in chronic insomnia
+  - Short-chain fatty acid production and overnight colonic fermentation
+  - Bile acid pool turnover and circadian liver-gut signalling
+  - FXR signalling rhythmicity and sleep-aligned feeding
+  - TGR5 receptor activation and overnight bile acid recycling
+  - Mucin layer thickness regulation across the sleep-wake cycle
+  - Goblet cell turnover and circadian intestinal renewal
+  - Paneth cell antimicrobial peptide rhythms and gut defence
+  - Vagal afferent signalling from gut to brain during sleep
+  - Enteric nervous system motility patterns overnight
+  - Migrating motor complex frequency during sleep
+  - Gastric emptying rate and pre-sleep meal timing
+  - Bowel motility and constipation risk in shift workers
+  - Tight junction protein expression and sleep restriction
+  - Microbial metabolite tryptophan-kynurenine balance and sleep
+  - GABA-producing gut bacteria and sleep onset latency
+  - Serotonin synthesis in enterochromaffin cells and circadian rhythm
+  - Bacterial circadian gene expression and host sleep alignment
+  - Inflammatory bowel disease flare patterns and sleep quality
+  - Irritable bowel syndrome symptom severity and sleep disruption
+  - Coeliac disease and sleep architecture differences
+  - Helicobacter pylori colonisation and nocturnal acid rhythms
+  - Gut-derived butyrate and intestinal stem cell renewal during sleep
+  - Postbiotic signalling molecules and brain inflammation
+  - Bile acid signalling to the suprachiasmatic nucleus
+  - Microbiome-driven melatonin synthesis in the gut
+  - Faecal microbial transplant outcomes and recipient sleep patterns
+recovery:
+  - Muscle protein synthesis rates during sleep
+  - Tendon collagen turnover and growth hormone pulses overnight
+  - Soft-tissue repair and IGF-1 elevation during deep sleep
+  - Athletic performance decrement after restricted sleep
+  - Sprint performance and prior-night sleep duration
+  - Endurance time-to-exhaustion after sleep deprivation
+  - Neuromuscular reaction time in athletes and sleep extension
+  - Anaerobic power output and sleep restriction
+  - Maximal voluntary contraction loss after sleep deprivation
+  - Glycogen resynthesis rate and overnight recovery
+  - DOMS perception and sleep quality after eccentric exercise
+  - Heart rate recovery post-exercise and sleep continuity
+  - Bone remodelling balance and growth hormone secretion overnight
+  - Exercise-induced muscle damage markers and sleep
+  - Cortisol-to-testosterone ratio overnight and overtraining risk
+  - Injury incidence in adolescent athletes and chronic sleep duration
+  - ACL injury risk and sleep restriction in collegiate athletes
+  - Concussion recovery trajectories and post-injury sleep architecture
+  - Surgical recovery duration and pre-operative sleep
+  - Rotator cuff repair healing and post-operative sleep quality
+  - Tendinopathy resolution and sleep continuity
+  - Sleep extension intervention effects on basketball shooting accuracy
+  - Free throw and serve accuracy in sleep-extended athletes
+  - Recovery heart rate variability after a hard training session
+  - Mitochondrial repair in skeletal muscle during sleep
+  - Cartilage proteoglycan synthesis during the rest period
+  - Burn wound contraction rate and sleep quality
+  - Skin wound granulation tissue formation and sleep
+  - Anabolic to catabolic hormonal balance during sleep recovery
+  - Fracture callus formation and post-injury sleep architecture
+pain:
+  - Descending serotonergic pain inhibition and sleep restriction
+  - Conditioned pain modulation efficiency after a night of lost sleep
+  - Central sensitisation maintenance and chronic insomnia
+  - Pain threshold reduction following partial sleep deprivation
+  - Migraine attack frequency and sleep stage abnormalities
+  - Cluster headache circadian timing and sleep onset
+  - Chronic low back pain trajectories and sleep continuity
+  - Fibromyalgia tender point thresholds and non-restorative sleep
+  - Postoperative pain intensity and pre-operative sleep
+  - Opioid analgesic efficacy under sleep restriction
+  - NSAID effectiveness and concurrent sleep disturbance
+  - Placebo analgesia magnitude and sleep quality
+  - Temporomandibular pain and bruxism during sleep stages
+  - Dental pain perception thresholds and prior-night sleep
+  - Visceral pain hypersensitivity and disrupted sleep
+  - Neuropathic pain severity in diabetic neuropathy and sleep
+  - Postherpetic neuralgia and sleep continuity
+  - Complex regional pain syndrome flares and sleep architecture
+  - Endogenous opioid tone during slow-wave sleep
+  - Cannabinoid receptor signalling and sleep-modulated analgesia
+  - Periaqueductal grey activation and pain inhibition during sleep
+  - Spinal dorsal horn excitability and sleep deprivation
+  - Catastrophising scores and sleep disturbance interactions
+  - Childbirth labour pain and prior sleep duration
+  - Cancer pain trajectories and sleep fragmentation
+  - Sickle cell crisis pain and sleep architecture
+  - Rheumatoid arthritis morning stiffness and sleep continuity
+  - Osteoarthritis pain flares and slow-wave sleep loss
+  - Headache rebound risk and sleep restriction
+  - Chronic pelvic pain syndromes and disrupted sleep
+sensory:
+  - Visual contrast sensitivity decline after sleep deprivation
+  - Saccadic eye movement velocity and sleep loss
+  - Pupillary unrest and the pupillographic sleepiness test
+  - Auditory reaction time slowing under sleep restriction
+  - Psychomotor vigilance task lapses and sleep debt
+  - Visual reaction time and prior-night sleep duration
+  - Steering deviation in driving simulators after sleep loss
+  - Drowsy driving crash risk and sleep duration
+  - Occupational accident incidence in shift workers
+  - Postural sway and balance after sleep deprivation
+  - Vestibular sensitivity and prior sleep quality
+  - Smooth pursuit eye movements and sleep restriction
+  - Stereoacuity and binocular vision under sleep loss
+  - Colour discrimination thresholds after a night without sleep
+  - Hearing threshold sensitivity and sleep stage changes
+  - Tinnitus perception and sleep continuity
+  - Olfactory discrimination and sleep deprivation
+  - Taste perception thresholds across the sleep-wake cycle
+  - Tactile two-point discrimination after sleep loss
+  - Proprioceptive accuracy and sleep restriction
+  - Fine motor control and surgical performance after sleep loss
+  - Gross motor coordination and sleep continuity
+  - Hand-eye coordination in athletes and sleep extension
+  - Driver microsleep frequency on monotonous roads
+  - Pilot error rates and circadian sleep disruption
+  - Reaction time variability as a marker of sleep insufficiency
+  - Visual attention and useful field of view after sleep loss
+  - Falls risk in older adults and disrupted sleep
+  - Reaction time asymmetry and unilateral microsleeps
+  - Motion sickness susceptibility and sleep deprivation
