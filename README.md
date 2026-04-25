@@ -77,13 +77,20 @@ python -m pytest tests/ -v
 
 ## Available models and estimated cost
 
-Cost is approximate; tool-augmented generation uses substantially more tokens than the previous untooled design (the model fetches full paper text via `web_fetch`).
+Tool-grounded generation uses substantially more tokens per run than the previous untooled design - each run loads the full text of 1-2 PMC papers (~30-60k input tokens) into the model's context so the LLM can ground every claim.
 
-| Model | ID | Input $/1M | Output $/1M | Est. monthly cost (30 sends) |
-|---|---|---|---|---|
-| Sonnet 4.6 (default) | `claude-sonnet-4-6` | $3.00 | $15.00 | ~$3.50 - $5 |
-| Opus 4.6 | `claude-opus-4-6` | $5.00 | $25.00 | ~$5.50 - $7 |
-| Opus 4.7 | `claude-opus-4-7` | $5.00 | $25.00 | ~$5.50 - $7 |
-| Haiku 4.5 | `claude-haiku-4-5-20251001` | $1.00 | $5.00 | ~$1 - $1.50 (NOT recommended for grounded mode - lower citation quality) |
+**Per-run token model** (used to derive the table below):
+- System + user + tool defs: ~1.5k input tokens
+- 2 web_search calls -> result blocks: ~6k input tokens
+- 1-2 web_fetch calls of full PMC papers: ~30-60k input tokens
+- Adaptive thinking + final output: 2-4k output tokens
+- ~2 web_search fees at $0.01/search: ~$0.02
 
-Plus a per-search Anthropic web_search fee (~$0.01/search; ~2-3 searches per send). Web_fetch token usage is included in input tokens above. GitHub Actions remains free.
+| Model | ID | Input $/1M | Output $/1M | Per-run | Est. monthly (30 sends) |
+|---|---|---|---|---|---|
+| Sonnet 4.6 (default) | `claude-sonnet-4-6` | $3.00 | $15.00 | $0.20 - $0.32 | **~$6 - $10** |
+| Opus 4.6 | `claude-opus-4-6` | $5.00 | $25.00 | $0.32 - $0.52 | ~$10 - $16 |
+| Opus 4.7 | `claude-opus-4-7` | $5.00 | $25.00 | $0.32 - $0.55 | ~$10 - $16 |
+| Haiku 4.5 | `claude-haiku-4-5-20251001` | $1.00 | $5.00 | $0.07 - $0.11 | ~$2 - $3 (NOT recommended - lower citation quality with tool use) |
+
+The biggest variance driver is how much full-text `web_fetch` the model decides to do. Opus 4.7's stronger literal instruction following may produce shorter outputs than Opus 4.6 on this task, so the upper bound for 4.7 may overshoot in practice. If the verifier triggers a retry (rare with grounding), double that single run. Budget for the upper end and review actual spend after 2-3 weeks of real sends. GitHub Actions remains free.
