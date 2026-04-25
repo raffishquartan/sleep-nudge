@@ -20,3 +20,11 @@ def pick_stub(
     if not available:
         available = all_stubs
     return rng.choice(available)
+
+
+def update_state(state: list[str], new_stub: str, max_window: int = 30) -> list[str]:
+    return ([*state, new_stub])[-max_window:]
+
+
+def build_subject(today: str, category: str, stub: str) -> str:
+    return f"[Cld] Sleep Nudge - {today} - {category}: {stub}"
