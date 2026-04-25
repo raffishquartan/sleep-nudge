@@ -2,9 +2,20 @@
 
 from __future__ import annotations
 
+import json
+
 import pytest
 
-from scripts.topic_picker import build_subject, pick_category, pick_stub, update_state
+from scripts.topic_picker import (
+    build_subject,
+    load_day_categories,
+    load_state,
+    load_topic_bank,
+    pick_category,
+    pick_stub,
+    save_state,
+    update_state,
+)
 
 
 def test_pick_category_returns_one_of_the_day_candidates(sample_day_map, seeded_rng):
@@ -60,3 +71,31 @@ def test_build_subject_format():
         "[Cld] Sleep Nudge - 2026-04-25 - cardiovascular: "
         "Heart rate variability and parasympathetic recovery"
     )
+
+
+def test_load_day_categories_reads_yaml(tmp_path):
+    p = tmp_path / "day-categories.yaml"
+    p.write_text("monday: [a, b]\ntuesday: [c]\n")
+    assert load_day_categories(p) == {"monday": ["a", "b"], "tuesday": ["c"]}
+
+
+def test_load_topic_bank_reads_yaml(tmp_path):
+    p = tmp_path / "topic-bank.yaml"
+    p.write_text("a:\n  - stub1\n  - stub2\n")
+    assert load_topic_bank(p) == {"a": ["stub1", "stub2"]}
+
+
+def test_load_state_returns_empty_list_when_missing(tmp_path):
+    assert load_state(tmp_path / "missing.json") == []
+
+
+def test_load_state_reads_existing_json(tmp_path):
+    p = tmp_path / "state.json"
+    p.write_text(json.dumps(["x", "y"]))
+    assert load_state(p) == ["x", "y"]
+
+
+def test_save_state_round_trip(tmp_path):
+    p = tmp_path / "state.json"
+    save_state(p, ["a", "b"])
+    assert json.loads(p.read_text()) == ["a", "b"]
