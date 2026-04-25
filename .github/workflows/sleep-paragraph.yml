@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sleep-paragraph
+  cancel-in-progress: false
+
 jobs:
   send-paragraph:
     runs-on: ubuntu-latest
