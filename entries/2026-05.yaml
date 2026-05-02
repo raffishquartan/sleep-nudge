@@ -1,0 +1,317 @@
+'2026-05-04':
+  status: GENERATION_FAILED
+  category: cardiovascular
+  stub: Diastolic dysfunction and habitual late-night sleep onset
+  failure_reason: After 4 web searches no open-access paper directly linked LV diastolic
+    dysfunction (E/A, E/e ratios) to habitual late sleep onset; closest fetchable
+    evidence (PMC8842133 EpiHealth) covers cardiometabolic biomarkers, and UK Biobank
+    chronotype-cardiac-structure paper (ScienceDirect) is paywalled. Refused to fabricate
+    a link. Bank stub may be too narrow; consider rewording to BP or chronotype +
+    LV volume.
+  generated_at: '2026-05-02T20:35:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-05':
+  status: GENERATED
+  category: metabolic
+  stub: Pancreatic beta-cell function under chronic circadian misalignment
+  subject: '[Cld] Sleep Nudge - 2026-05-05 - metabolic: Pancreatic beta-cell function
+    under chronic circadian misalignment'
+  body: 'Chronic circadian disruption is not just an insulin-sensitivity story; it
+    directly degrades the pancreatic beta-cell itself. In diabetes-prone HIP rats,
+    ten weeks of either constant light or repeated six-hour light advances every three
+    days produced ~40% loss of beta-cell mass and ~65% reduction in glucose-stimulated
+    insulin secretion versus a normal 12:12 light-dark cycle (Gale et al. 2011). The
+    proximal mechanism is desynchronisation between the central pacemaker in the suprachiasmatic
+    nucleus and the peripheral clock inside the beta-cell, compounded by disrupted
+    melatonin signalling at the MTNR1B receptor (a locus already implicated in human
+    hyperglycaemia GWAS) and accelerated beta-cell apoptosis driven by islet-amyloid-induced
+    ER stress. Acute (3-day) misalignment in healthy young humans does not yet measurably
+    impair early-phase insulin (Qian et al. 2018), so this is specifically a *chronic*
+    exposure phenotype - the kind of misalignment built up by months of habitual late-night
+    onsets and irregular wake times.
+
+
+    Plain language: short bursts of jet-lag-like sleep are recoverable, but months
+    of misaligned sleep timing kills beta cells in animal models. If you have a family
+    history of type 2 diabetes, going to bed at the same time on weekdays and weekends
+    is one of the cheapest hedges you can buy. Tonight is one tally mark in either
+    direction.
+
+
+    References
+
+    Gale, J.E., Cox, H.I., Qian, J., Block, G.D., Colwell, C.S., Matveyenko, A.V.
+    (2011). Disruption of Circadian Rhythms Accelerates Development of Diabetes through
+    Pancreatic Beta-Cell Loss and Dysfunction. Journal of Biological Rhythms, 26(5),
+    423-433. https://pmc.ncbi.nlm.nih.gov/articles/PMC3359760/
+
+    Qian, J., Dalla Man, C., Morris, C.J., Cobelli, C., Scheer, F.A.J.L. (2018). Differential
+    effects of the circadian system and circadian misalignment on insulin sensitivity
+    and insulin secretion in humans. Diabetes, Obesity & Metabolism, 20(10), 2481-2485.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC6167165/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3359760/
+    title: Disruption of Circadian Rhythms Accelerates Development of Diabetes through
+      Pancreatic Beta-Cell Loss and Dysfunction
+    authors: Gale JE, Cox HI, Qian J, Block GD, Colwell CS, Matveyenko AV
+    year: 2011
+    published_at: 2011-10
+    verified_at: '2026-05-02T20:36:00+01:00'
+    verified_status: 200
+    supporting_passage: Experimental disruption of circadian rhythms in diabetes-prone
+      HIP rats led to accelerated development of diabetes. The mechanism subserving
+      early-onset diabetes was due to accelerated loss of beta-cell function and loss
+      of beta-cell mass attributed to increases in beta-cell apoptosis. Beta-cell
+      mass declined ~40% in HIP rats exposed to constant light or repeated 6-hour
+      light advances versus a normal 12:12 light-dark cycle, and glucose-stimulated
+      insulin secretion was reduced by ~65% (p<0.05).
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6167165/
+    title: Differential effects of the circadian system and circadian misalignment
+      on insulin sensitivity and insulin secretion in humans
+    authors: Qian J, Dalla Man C, Morris CJ, Cobelli C, Scheer FAJL
+    year: 2018
+    published_at: 2018-10
+    verified_at: '2026-05-02T20:36:00+01:00'
+    verified_status: 200
+    supporting_passage: There were no significant effects of circadian misalignment
+      on beta-cell responsivity, as all phi indices and DI did not significantly differ
+      between circadian alignment and misalignment conditions (all P>0.099). In our
+      short-term circadian misalignment exposure (3 days), we found no evidence of
+      altered beta-cell function due to circadian misalignment. Insulin sensitivity
+      was 16.5% lower under misalignment (95% CI 7.9, 24.3; P=0.0007) in 14 healthy
+      adults aged 28+/-9 years.
+  generated_at: '2026-05-02T20:36:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-06':
+  status: GENERATED
+  category: neurological
+  stub: Cortical excitability rebound during sleep deprivation
+  subject: '[Cld] Sleep Nudge - 2026-05-06 - neurological: Cortical excitability rebound
+    during sleep deprivation'
+  body: 'Wakefulness drives the cortex toward saturation. In a 20-person crossover
+    study using transcranial magnetic stimulation, one night of total sleep deprivation
+    lowered the stimulation intensity needed to evoke a fixed motor-evoked potential
+    amplitude (t19 = -2.46, P = 0.023), meaning the corticospinal pathway is more
+    excitable after a sleepless night, not less (Kuhn et al. 2016). At the same time,
+    the capacity to induce long-term-potentiation-like plasticity through paired associative
+    stimulation collapsed (eta-p^2 = 0.283; P = 0.013), and EEG theta power rose sharply
+    (P < 0.001). The framework is the synaptic homeostasis hypothesis: every hour
+    of wake net-strengthens cortical synapses, and sleep is the period that renormalises
+    them. Strip the renormalisation and you are left with synapses that fire too easily
+    but cannot encode new learning - a high-noise, low-signal state. This is why one
+    bad night blunts learning the next day even when subjective alertness has caffeinated
+    itself back into shape.
+
+
+    Plain language: a short night doesn''t make your brain quiet, it makes it noisier
+    and less able to lock in new memories. If you are about to learn or retain something
+    tomorrow, the cheapest intervention is being asleep within the next hour. Caffeine
+    restores alertness but not the plasticity capacity that was used up.
+
+
+    References
+
+    Kuhn, M., Wolf, E., Maier, J.G., et al. (2016). Sleep recalibrates homeostatic
+    and associative synaptic plasticity in the human cortex. Nature Communications,
+    7, 12455. https://pmc.ncbi.nlm.nih.gov/articles/PMC4996971/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4996971/
+    title: Sleep recalibrates homeostatic and associative synaptic plasticity in the
+      human cortex
+    authors: Kuhn M, Wolf E, Maier JG, et al.
+    year: 2016
+    published_at: 2016-08
+    verified_at: '2026-05-02T20:38:00+01:00'
+    verified_status: 200
+    supporting_passage: 'The stimulation intensity adjusted to elicit comparable baseline
+      MEP amplitudes before PAS was significantly lower in the sleep deprivation condition
+      compared with the sleep condition (t19=-2.46, P=0.023), indicating increased
+      cortical excitability after sleep deprivation. The synaptic homeostasis hypothesis
+      predicts a homeostatic increase in net synaptic strength and cortical excitability
+      along with decreased inducibility of associative synaptic long-term potentiation
+      (LTP) due to saturation. Effect of condition on LTP-like plasticity: F1,19=7.5,
+      P=0.013, eta-p^2=0.283.'
+  generated_at: '2026-05-02T20:38:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-07':
+  status: GENERATED
+  category: pain
+  stub: Sickle cell crisis pain and sleep architecture
+  subject: '[Cld] Sleep Nudge - 2026-05-07 - pain: Sickle cell crisis pain and sleep
+    architecture'
+  body: 'In sickle cell disease the relationship between sleep and pain is not abstract;
+    it can be measured night by night and day by day. A three-month within-person
+    diary study of 75 adults with SCD (4,400+ paired sleep and pain entries) found
+    that nights of shorter total sleep time, less efficient sleep, and more wake-after-sleep-onset
+    were followed by days of higher clinical pain (Moscou-Jackson et al. 2015). Each
+    30-minute increase in total sleep time corresponded to a 0.30-point lower pain
+    severity the next day on a 0-100 scale; each 30-minute decrease in wake-after-sleep-onset
+    corresponded to a 0.60-point reduction (P < 0.001 across measures). Two mechanisms
+    are credible. First, sleep fragmentation suppresses descending endogenous opioid
+    pain modulation, an effect already demonstrated in healthy adults and a strong
+    candidate pathway in SCD. Second, fragmented short sleep raises systemic inflammatory
+    activity, which compounds vaso-occlusive risk and lowers the hyperalgesic threshold.
+
+
+    Plain language: if you live with SCD, the night before a hard day matters mechanically,
+    not just emotionally. The intervention with the largest evidence base for tomorrow''s
+    pain is consolidated sleep tonight. Even an extra 30 minutes is measurable.
+
+
+    References
+
+    Moscou-Jackson, G., Finan, P.H., Campbell, C.M., Smyth, J.M., Haythornthwaite,
+    J.A. (2015). The Effect of Sleep Continuity on Pain in Adults with Sickle Cell
+    Disease. The Journal of Pain, 16(6), 587-593. https://pmc.ncbi.nlm.nih.gov/articles/PMC4456237/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4456237/
+    title: The Effect of Sleep Continuity on Pain in Adults with Sickle Cell Disease
+    authors: Moscou-Jackson G, Finan PH, Campbell CM, Smyth JM, Haythornthwaite JA
+    year: 2015
+    published_at: 2015-06
+    verified_at: '2026-05-02T20:40:00+01:00'
+    verified_status: 200
+    supporting_passage: Nights of shorter sleep duration and time in bed, increased
+      fragmentation, and less efficient sleep (relative to one's own mean) were followed
+      by days of greater pain severity. A 30-minute increase in total sleep time is
+      associated with lower pain severity the next day (a decrease of 0.30 points
+      on a 0-100 point scale); for every 30-minute decrease in WASO, next-day pain
+      severity is estimated to be lower by 0.60 points (p<0.001). Sleep fragmentation
+      has already been shown to reduce endogenous opioid pain modulation in healthy
+      adults and may provide a mechanism underlying the effects of daily sleep fragmentation
+      and sleep duration on next day clinical pain in patients with SCD.
+  generated_at: '2026-05-02T20:40:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-08':
+  status: GENERATED
+  category: hormonal
+  stub: Renin-angiotensin-aldosterone system rhythmicity across the sleep period
+  subject: '[Cld] Sleep Nudge - 2026-05-08 - hormonal: Renin-angiotensin-aldosterone
+    system rhythmicity across the sleep period'
+  body: 'Plasma aldosterone is one of the more steeply rhythmic hormones in the body,
+    and the rhythm is endogenously driven, not a passive consequence of being asleep.
+    In a 26-participant forced-desynchrony protocol that decouples sleep, posture,
+    and feeding from internal circadian time, plasma aldosterone roughly doubled across
+    the biological night - peak 101 pg/ml at circadian phase ~165 degrees (~8 AM)
+    versus trough 57 pg/ml at ~midnight, P < 0.001 for the circadian effect (Thosar
+    et al. 2018). Crucially, sleep inactivity and wake inactivity produced statistically
+    indistinguishable rises (P = 0.24), so the morning aldosterone surge is driven
+    by the suprachiasmatic nucleus plus the activity/posture changes of waking up,
+    not by being asleep per se. The downstream consequences are real: aldosterone
+    primes sodium retention and vascular tone for the morning rise in blood pressure,
+    and a flattened or phase-shifted profile is one signature of nondipping hypertension
+    and worse cardiovascular outcomes.
+
+
+    Plain language: your kidneys and vasculature are pre-loaded for the morning before
+    you wake up, on a clock you cannot consciously reach. Sleeping at the wrong phase
+    against this clock - shift work, chronic late onset - leaves the rhythm out of
+    register with daytime demands. Going to bed at a stable, biologically-aligned
+    time helps your morning blood pressure land where it should.
+
+
+    References
+
+    Thosar, S.S., Rueda, J.F., Berman, A.M., et al. (2018). Separate and interacting
+    effects of the endogenous circadian system and behaviors on plasma aldosterone
+    in humans. American Journal of Physiology - Regulatory, Integrative and Comparative
+    Physiology, 316(2), R157-R164. https://pmc.ncbi.nlm.nih.gov/articles/PMC6397357/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6397357/
+    title: Separate and interacting effects of the endogenous circadian system and
+      behaviors on plasma aldosterone in humans
+    authors: Thosar SS, Rueda JF, Berman AM, et al.
+    year: 2018
+    published_at: 2018-12
+    verified_at: '2026-05-02T20:42:00+01:00'
+    verified_status: 200
+    supporting_passage: 'The morning increase in aldosterone is due to effects of
+      the circadian system plus increased morning activities and not prior sleep or
+      the inactivity accompanying sleep. Cosinor model peak: 101 pg/ml (CI: 73-129)
+      at circadian phase 165 degrees (~8 AM); trough 57 pg/ml (CI: 29-86) at circadian
+      phase 45 degrees (~midnight); P<0.001 for circadian rhythm. Sleep inactivity
+      vs. wake inactivity produced identical aldosterone increases across the night
+      (P=0.24 between conditions), ruling out sleep-specific amplification.'
+  generated_at: '2026-05-02T20:42:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-09':
+  status: GENERATED
+  category: recovery
+  stub: Free throw and serve accuracy in sleep-extended athletes
+  subject: '[Cld] Sleep Nudge - 2026-05-09 - recovery: Free throw and serve accuracy
+    in sleep-extended athletes'
+  body: 'When healthy young athletes deliberately spend more time in bed, the gain
+    in fine-motor accuracy is large enough to be visible in box-score statistics.
+    In Mah et al.''s Stanford basketball study, eleven Division-I collegiate players
+    extended time in bed to a 10-hour target for five to seven weeks after a 2-4 week
+    habitual baseline; actigraphy-confirmed sleep duration rose by 110.9 +/- 79.7
+    minutes per night (P < 0.001). Free-throw percentage rose by 9% (7.9 to 8.8 out
+    of 10) and 3-point percentage by 9.2% (10.2 to 11.6 out of 15), both P < 0.001
+    (Mah et al. 2011). 282-foot sprint times fell from 16.2 to 15.5 seconds. The authors
+    attribute the gains to faster psychomotor vigilance, lower fatigue and improved
+    mood, but the size of the accuracy effect specifically suggests procedural-motor
+    consolidation is also at work - the cerebellar and motor-cortical circuits that
+    fine-tune ballistic movements rehearse and refine themselves during sleep. Comparable
+    serve-accuracy gains have been shown in collegiate tennis players given two extra
+    hours nightly.
+
+
+    Plain language: if you compete in a sport where one or two percentage points of
+    accuracy decide games, an extra ninety minutes of nightly sleep over a few weeks
+    is on the same scale as serious training adjustments. Tonight does not deliver
+    the gain on its own, but it is one of the deposits.
+
+
+    References
+
+    Mah, C.D., Mah, K.E., Kezirian, E.J., Dement, W.C. (2011). The effects of sleep
+    extension on the athletic performance of collegiate basketball players. Sleep,
+    34(7), 943-950. https://pmc.ncbi.nlm.nih.gov/articles/PMC3119836/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3119836/
+    title: The effects of sleep extension on the athletic performance of collegiate
+      basketball players
+    authors: Mah CD, Mah KE, Kezirian EJ, Dement WC
+    year: 2011
+    published_at: 2011-07
+    verified_at: '2026-05-02T20:44:00+01:00'
+    verified_status: 200
+    supporting_passage: 'Shooting accuracy improved, with free throw percentage increasing
+      by 9% and 3-point field goal percentage increasing by 9.2% (P<0.001). Sample:
+      11 collegiate basketball players; baseline sleep 400.7 +/- 61.8 minutes/night
+      via actigraphy; target 10 hours time-in-bed for 5-7 weeks; sleep increase 110.9
+      +/- 79.7 min (P<0.001); 282-foot sprint improved from 16.2 to 15.5 seconds (P<0.001).
+      Free throws: 7.9 to 8.8 out of 10; 3-point: 10.2 to 11.6 out of 15.'
+  generated_at: '2026-05-02T20:44:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
