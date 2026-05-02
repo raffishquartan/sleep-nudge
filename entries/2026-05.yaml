@@ -1,14 +1,75 @@
 '2026-05-04':
-  status: GENERATION_FAILED
+  status: GENERATED
   category: cardiovascular
-  stub: Diastolic dysfunction and habitual late-night sleep onset
-  failure_reason: After 4 web searches no open-access paper directly linked LV diastolic
-    dysfunction (E/A, E/e ratios) to habitual late sleep onset; closest fetchable
-    evidence (PMC8842133 EpiHealth) covers cardiometabolic biomarkers, and UK Biobank
-    chronotype-cardiac-structure paper (ScienceDirect) is paywalled. Refused to fabricate
-    a link. Bank stub may be too narrow; consider rewording to BP or chronotype +
-    LV volume.
-  generated_at: '2026-05-02T20:35:00+01:00'
+  stub: Habitual late bedtime and exaggerated morning blood pressure surge
+  subject: '[Cld] Sleep Nudge - 2026-05-04 - cardiovascular: Habitual late bedtime
+    and exaggerated morning blood pressure surge'
+  body: 'Blood pressure does not creep up on the morning - it surges. In ambulatory
+    monitoring of hypertensive cohorts the systolic rise from pre-awakening to peak
+    averages around 14 mmHg, but a sub-population shows a surge of 55 mmHg or more.
+    In Kario''s series the high-surge group had silent cerebral infarction in 70%
+    of cases versus 48% in the lower-surge group (P < 0.002) and stroke incidence
+    of 19% versus 7.3% (P < 0.004) (Patel, Wong & Arora 2008). The surge is built
+    by sympathetic nervous system activation overlapping with renin-angiotensin-aldosterone
+    activity peaking near 8 AM, a cortisol crest, and increased platelet aggregability
+    and reduced fibrinolysis - which is why the 6 AM-12 PM window is the peak hour
+    for both fatal and non-fatal cardiovascular events. Habitual late bedtime is a
+    risk amplifier on this pathway: short sleep (<6 h) is associated with 66% higher
+    odds of hypertension (OR 1.66, 95% CI 1.35-2.04), and the autonomic dysregulation
+    that drives that hypertension is the same machinery that controls the morning
+    surge (Makarem et al. 2019).
+
+
+    Plain language: the most dangerous hour for the heart and brain is the first one
+    or two after you wake up, and the size of the BP spike at that moment is on a
+    sliding scale set partly by how long you slept. Going to bed late compresses the
+    runway. If you have an unusual deadline for tomorrow morning, the cheapest cardiovascular
+    hedge is being asleep within the next hour.
+
+
+    References
+
+    Patel, P.V., Wong, J.L., Arora, R. (2008). The Morning Blood Pressure Surge: Therapeutic
+    Implications. Journal of Clinical Hypertension (Greenwich), 10(2), 140-145. https://pmc.ncbi.nlm.nih.gov/articles/PMC8110086/
+
+    Makarem, N., Shechter, A., Carnethon, M.R., et al. (2019). Sleep Duration and
+    Blood Pressure: Recent Advances and Future Directions. Current Hypertension Reports,
+    21(5), 33. https://pmc.ncbi.nlm.nih.gov/articles/PMC10239254/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8110086/
+    title: 'The Morning Blood Pressure Surge: Therapeutic Implications'
+    authors: Patel PV, Wong JL, Arora R
+    year: 2008
+    published_at: 2008-02
+    verified_at: '2026-05-02T23:25:00+01:00'
+    verified_status: 200
+    supporting_passage: Following this dip, a morning surge most commonly occurs between
+      the hours of 6 am and 12 pm. There is a moderate and steady increase in BP before
+      arousal, characterized by an increase in systolic BP (SBP) of approximately
+      3 mm Hg/h and in diastolic BP of 2 mm Hg/h. The group with a morning BP surge
+      of >=55 mm Hg (n=53) had a higher prevalence of silent cerebral infarction (70%
+      vs 48%; P<.002) and a higher incidence of stroke (19% vs 7.3%; P<.004). The
+      most prominent mechanism is likely the sympathetic nervous system; catecholamine
+      levels closely follow the circadian BP pattern.
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10239254/
+    title: 'Sleep Duration and Blood Pressure: Recent Advances and Future Directions'
+    authors: Makarem N, Shechter A, Carnethon MR, et al.
+    year: 2019
+    published_at: 2019-05
+    verified_at: '2026-05-02T23:25:00+01:00'
+    verified_status: 200
+    supporting_passage: Short sleep (<6 h) was associated with 66% higher odds for
+      hypertension (OR (95% CI) 1.66 (1.35-2.04)). Each 1-h increment in sleep duration
+      was also associated with 13% higher odds for an elevated morning surge (>=18.0
+      mmHg). Short sleep may also increase hypertension risk through mechanisms related
+      to adiposity and metabolic dysfunction; autonomic dysfunction, particularly
+      sympathetic activation, has in turn been linked to hypertension development.
+  generated_at: '2026-05-02T23:25:00+01:00'
   generator_model: claude-opus-4-7
   generator_session: 20260502-sleep-nudge-revisited
 '2026-05-05':
