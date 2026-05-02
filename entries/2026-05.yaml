@@ -376,3 +376,61 @@
   generated_at: '2026-05-02T20:44:00+01:00'
   generator_model: claude-opus-4-7
   generator_session: 20260502-sleep-nudge-revisited
+'2026-05-10':
+  status: GENERATED
+  category: cardiovascular
+  stub: Sleep-disordered breathing and pulmonary hypertension progression
+  subject: '[Cld] Sleep Nudge - 2026-05-10 - cardiovascular: Sleep-disordered breathing
+    and pulmonary hypertension progression'
+  body: 'Pulmonary hypertension is a recognised complication of obstructive sleep
+    apnoea, with prevalence estimates clustering around 20% across the OSA population
+    (range 17-70% across cohorts). The mechanism is built breath-by-breath, all night.
+    Each apnoeic event produces intermittent hypoxia and hypercapnia, which trigger
+    hypoxic pulmonary vasoconstriction and reduce nitric oxide bioavailability via
+    NADPH-oxidase-driven oxidative stress, while endothelin-1 rises and inhibits eNOS-mediated
+    vasodilation (Shah et al. 2021). Over months and years this drives pulmonary vascular
+    smooth-muscle proliferation and remodelling. Untreated, mean pulmonary artery
+    systolic pressure runs about 6 mmHg higher in OSA patients than controls (29.8
+    +/- 8.8 vs 23.4 +/- 4.1 mmHg in Arias et al.); CPAP brings that pressure down
+    significantly (24.0 +/- 5.8 mmHg post-treatment, P < 0.0001), and reduces total
+    pulmonary vascular resistance. Compounding this, longstanding LV diastolic dysfunction
+    from the same underlying disease raises pulmonary venous pressures, layering a
+    second mechanism for the PH progression.
+
+
+    Plain language: snoring loudly with witnessed pauses is not a quirk - it is a
+    stress test for the right side of your heart that runs every night. If apnoea
+    is on the table, getting a sleep study and starting CPAP if indicated is one of
+    the few interventions that demonstrably reverses early pulmonary vascular damage.
+    Tonight matters less than the cumulative dose; the cumulative dose is what gets
+    diagnosed.
+
+
+    References
+
+    Shah, F.A., Moronta, S., Braford, M., Greene, N. (2021). Obstructive Sleep Apnea
+    and Pulmonary Hypertension: A Review of Literature. Cureus, 13(4), e14575. https://pmc.ncbi.nlm.nih.gov/articles/PMC8135661/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8135661/
+    title: 'Obstructive Sleep Apnea and Pulmonary Hypertension: A Review of Literature'
+    authors: Shah FA, Moronta S, Braford M, Greene N
+    year: 2021
+    published_at: 2021-04
+    verified_at: '2026-05-02T23:50:00+01:00'
+    verified_status: 200
+    supporting_passage: PH is a concerning complication of OSA and thought to occur
+      in roughly 20% of individuals with OSA, but the range is anywhere from 17% to
+      70% in the literature. The pathogenesis of PH in OSA is related to intermittent
+      hypoxia, hypercapnia, acidosis, sympathetic hyperactivity, negative pleural
+      pressure, and endothelial dysfunction. The end result is pulmonary artery vasoconstriction
+      and remodeling. Arias et al. observed pulmonary artery systolic pressure 29.8+/-8.8
+      mmHg in OSA versus 23.4+/-4.1 mmHg in controls, falling to 24.0+/-5.8 after
+      CPAP (P<0.0001).
+  generated_at: '2026-05-02T23:50:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
