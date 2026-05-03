@@ -14,9 +14,36 @@ from scripts.topic_picker import (
     pick_category,
     pick_stub,
     save_state,
+    seeded_rng_for_date,
     update_state,
     validate_bank,
 )
+
+
+def test_seeded_rng_for_date_is_deterministic():
+    rng_a = seeded_rng_for_date("2026-05-15")
+    rng_b = seeded_rng_for_date("2026-05-15")
+    assert [rng_a.random() for _ in range(5)] == [rng_b.random() for _ in range(5)]
+
+
+def test_seeded_rng_for_date_differs_by_date():
+    rng_a = seeded_rng_for_date("2026-05-15")
+    rng_b = seeded_rng_for_date("2026-05-16")
+    assert [rng_a.random() for _ in range(5)] != [rng_b.random() for _ in range(5)]
+
+
+def test_seeded_rng_for_date_differs_by_salt():
+    rng_cat = seeded_rng_for_date("2026-05-15", salt="category")
+    rng_stub = seeded_rng_for_date("2026-05-15", salt="stub")
+    assert [rng_cat.random() for _ in range(5)] != [rng_stub.random() for _ in range(5)]
+
+
+def test_pick_category_with_seeded_rng_is_stable_for_same_date(sample_day_map):
+    rng_first = seeded_rng_for_date("2026-05-15", salt="category")
+    rng_second = seeded_rng_for_date("2026-05-15", salt="category")
+    cat_first = pick_category("monday", sample_day_map, rng_first)
+    cat_second = pick_category("monday", sample_day_map, rng_second)
+    assert cat_first == cat_second
 
 
 def test_pick_category_returns_one_of_the_day_candidates(sample_day_map, seeded_rng):

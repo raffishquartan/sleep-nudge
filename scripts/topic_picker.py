@@ -9,6 +9,17 @@ from pathlib import Path
 import yaml
 
 
+def seeded_rng_for_date(date_iso: str, *, salt: str = "") -> random.Random:
+    """Return a deterministic RNG seeded by an ISO date string and an optional salt.
+
+    Same (date_iso, salt) pair always produces the same sequence; different pairs
+    produce uncorrelated sequences. Used by the generator skill so that re-running
+    generation for a single date picks the same category/stub given the same
+    prior-used-stubs context.
+    """
+    return random.Random(f"{date_iso}|{salt}")
+
+
 def pick_category(day: str, day_map: dict[str, list[str]], rng: random.Random) -> str:
     return rng.choice(day_map[day])
 
