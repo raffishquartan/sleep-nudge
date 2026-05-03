@@ -434,3 +434,867 @@
   generated_at: '2026-05-02T23:50:00+01:00'
   generator_model: claude-opus-4-7
   generator_session: 20260502-sleep-nudge-revisited
+'2026-05-11':
+  status: GENERATED
+  category: immune
+  stub: Mucosal IgA secretion and circadian rhythm
+  subject: '[Cld] Sleep Nudge - 2026-05-11 - immune: Mucosal IgA secretion and circadian
+    rhythm'
+  body: 'Secretory IgA is the first line of antibody defence at every mucosal surface
+    that meets the outside world, and its release is on a clock. In a 40-hour constant-routine
+    forced-wakefulness protocol with 10 healthy young adults, salivary sIgA showed
+    a clear circadian peak at habitual wake-time and rose progressively across extended
+    wakefulness; recovery sleep then triggered a disproportionate rebound, increasing
+    sIgA secretion by a factor of 8.0 under dim light (P = 0.039) and 6.9 under blue-enriched
+    light (P = 0.008) (Cajochen et al. 2021). The proposed mechanism is sympathetic
+    activation of plasma cells in the salivary glands, with strongest effects during
+    the light phase; recovery sleep produces a sympathetic surge that drives the IgA
+    rebound. The biological consequence is straightforward: a chronically truncated
+    night, especially shift-work-pattern truncation, leaves the mucosal interface
+    with a lower IgA tonic baseline at exactly the times of day when respiratory and
+    oral pathogens are most likely to land.
+
+
+    Plain language: a normal, on-time night is when your saliva and gut linings reload
+    their antibody defences. If you''re going into a winter cold-and-flu environment,
+    the cheapest one-night intervention for your antibody readiness is sleeping at
+    your usual time, not later.
+
+
+    References
+
+    Cajochen, C., Weber, J., Estrada, A.F., Kobayashi, K., Gabel, V. (2021). Circadian
+    and homeostatic sleep-wake regulation of secretory immunoglobulin A (sIgA): Effects
+    of environmental light and recovery sleep. Brain, Behavior, & Immunity - Health,
+    19, 100394. https://pmc.ncbi.nlm.nih.gov/articles/PMC8683681/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8683681/
+    title: 'Circadian and homeostatic sleep-wake regulation of secretory immunoglobulin
+      A (sIgA): Effects of environmental light and recovery sleep'
+    authors: Cajochen C, Weber J, Estrada AF, Kobayashi K, Gabel V
+    year: 2021
+    published_at: 2021-12
+    verified_at: '2026-05-03T02:50:00+01:00'
+    verified_status: 200
+    supporting_passage: The 40-h time course of sIgA exhibited a clear circadian modulation
+      with peak values in the mornings coinciding with the individuals' habitual rise-time.
+      In addition, sIgA levels progressively increased throughout the 40 h of extended
+      wakefulness. Recovery sleep increased sIgA by factor of 8.0 (dim light, p=0.039)
+      and 6.9 (blue-enriched light, p=0.008). Sympathetic activation affects IgA secretion
+      with strongest effects during the light phase.
+  generated_at: '2026-05-03T02:50:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-12':
+  status: GENERATED
+  category: metabolic
+  stub: Postprandial glucose excursion amplitude after sleep restriction
+  subject: '[Cld] Sleep Nudge - 2026-05-12 - metabolic: Postprandial glucose excursion
+    amplitude after sleep restriction'
+  body: 'The popular framing - "a short night raises your blood sugar after breakfast"
+    - is right under one specific condition and not under others. In a three-week
+    inpatient forced-desynchrony study (n = 21, mean age 40.1) that combined chronic
+    sleep restriction with recurrent circadian disruption, postprandial glucose AUC
+    rose by 2,726 mg/dL.min (95% CI 2,105-3,293, P < 0.0001) on a standardised breakfast
+    on day 26, accompanied by inadequate pancreatic insulin secretion (Yuan et al.
+    2021). In the matched arm where 5-5.6 hours of sleep was imposed but circadian
+    alignment was preserved (n = 9, age 67.1), there were no adverse glycaemic effects
+    after three weeks. The interpretation that fits both arms: it is the *misalignment*
+    between sleep timing and the body clock - not the short hours per se - that flattens
+    beta-cell glucose responsiveness and inflates postprandial peaks. Chronically
+    truncated nights that also drift later or rotate (shift work, weekend social jetlag,
+    university-student late patterns) do both at once.
+
+
+    Plain language: a single short night will not noticeably move tomorrow''s glucose.
+    A pattern of short *and* irregularly-timed nights over weeks will. Going to bed
+    at a stable, biologically-aligned time most nights matters more than the duration
+    of any single one.
+
+
+    References
+
+    Yuan, R.K., Zitting, K.-M., Duffy, J.F., et al. (2021). Chronic Sleep Restriction
+    While Minimizing Circadian Disruption Does Not Adversely Affect Glucose Tolerance.
+    Frontiers in Physiology, 12, 764737. https://pmc.ncbi.nlm.nih.gov/articles/PMC8564292/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8564292/
+    title: Chronic Sleep Restriction While Minimizing Circadian Disruption Does Not
+      Adversely Affect Glucose Tolerance
+    authors: Yuan RK, Zitting K-M, Duffy JF, et al.
+    year: 2021
+    published_at: 2021-11
+    verified_at: '2026-05-03T02:55:00+01:00'
+    verified_status: 200
+    supporting_passage: 'CSR combined with RCD resulted in significantly elevated
+      postprandial plasma glucose levels (p<0.0001). Effect size for CSR&RCD group:
+      AUC glucose increase of 2,726 (95% CI: 2,105-3,293, p<0.0001). CSR with minimized
+      circadian disruption had no adverse glycemic effects after 3 weeks of exposure.
+      CSR&RCD group n=21, age 40.1+/-19.1; CSR-only group n=9, age 67.1+/-12.5. Inadequate
+      pancreatic insulin secretion was observed in the CSR&RCD group.'
+  generated_at: '2026-05-03T02:55:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-13':
+  status: GENERATED
+  category: neurological
+  stub: Myelination dynamics in oligodendrocytes during sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-13 - neurological: Myelination dynamics in
+    oligodendrocytes during sleep'
+  body: 'Sleep is when the brain rebuilds its insulation. In adult mice, oligodendrocyte
+    precursor cell (OPC) proliferation roughly doubles during sleep and the rate correlates
+    specifically with REM time (r = 0.79, P = 0.007), while OPC differentiation -
+    the conversion of precursor cells into mature myelinating oligodendrocytes - shifts
+    toward the wake phase (Bellesi et al. 2013). The transcriptional split is sharp:
+    genes for phospholipid synthesis, myelination and OPC proliferation (Yap1, Mxd3,
+    Nrg2) are preferentially transcribed in sleep, while apoptosis, cellular-stress
+    and differentiation genes (YY1, Sox17) are enriched in wake. Two opposing neuromodulators
+    set the rhythm: glutamatergic synaptic activity is higher in wake and inhibits
+    OPC proliferation, and adenosine - which builds during wake and falls during sleep
+    - similarly stops proliferation and pushes differentiation. The functional consequence
+    is that the white-matter scaffolding that supports faster, more reliable signal
+    conduction depends on a phasic alternation of sleep-restorative phases and active
+    wake; chronic sleep restriction biases the cycle and reduces the pool of new myelin-capable
+    cells.
+
+
+    Plain language: the brain expands its myelin reserves during sleep, especially
+    during REM. If you are doing intensive learning right now (a course, a new role,
+    a new instrument), tonight''s sleep is part of the consolidation hardware, not
+    a reward separate from it.
+
+
+    References
+
+    Bellesi, M., Pfister-Genskow, M., Maret, S., Keles, S., Tononi, G., Cirelli, C.
+    (2013). Effects of Sleep and Wake on Oligodendrocytes and Their Precursors. The
+    Journal of Neuroscience, 33(36), 14288-14300. https://pmc.ncbi.nlm.nih.gov/articles/PMC3874087/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3874087/
+    title: Effects of Sleep and Wake on Oligodendrocytes and Their Precursors
+    authors: Bellesi M, Pfister-Genskow M, Maret S, Keles S, Tononi G, Cirelli C
+    year: 2013
+    published_at: 2013-09
+    verified_at: '2026-05-03T03:00:00+01:00'
+    verified_status: 200
+    supporting_passage: OPC proliferation doubles during sleep and positively correlates
+      with time spent in REM sleep, whereas OPC differentiation is higher during wake.
+      Genes involved in phospholipid synthesis and myelination or promoting OPC proliferation
+      are transcribed preferentially during sleep, while genes implicated in apoptosis,
+      cellular stress response, and OPC differentiation are enriched in wake. The
+      correlation was significant specifically for REM sleep duration (r=0.79, p=0.007),
+      not NREM sleep or slow-wave activity.
+  generated_at: '2026-05-03T03:00:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-14':
+  status: GENERATED
+  category: emotional
+  stub: Empathic accuracy and facial emotion recognition after poor sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-14 - emotional: Empathic accuracy and facial
+    emotion recognition after poor sleep'
+  body: 'The cost of a sleepless night to your social-cognitive radar is selective
+    and measurable. In van der Helm et al.''s study of 37 healthy young adults (age
+    18-25) given a 31-hour total sleep-deprivation period and then a graded facial-emotion
+    recognition task using morphed faces, sleep-deprived participants showed marked,
+    significant blunting in the recognition of Angry and Happy expressions in the
+    moderate emotional-intensity range, while recognition of Sad expressions and of
+    high-intensity (unambiguous) expressions was relatively preserved (van der Helm
+    et al. 2010). The proposed mechanism is selective dysfunction of the anterior
+    cingulate cortex and medial prefrontal regions that code high-arousal emotions;
+    with their gain reduced, the brain becomes less accurate at the subtle, ambiguous
+    social cues that empathic accuracy depends on. Importantly, the unambiguous, high-arousal
+    cases - someone obviously furious, someone obviously delighted - are spared. The
+    cost is paid in the everyday social middle-ground: small affiliation signals,
+    small displeasure signals, the things that build or wreck a relationship.
+
+
+    Plain language: a short night does not blind you to the obvious - it shrinks your
+    bandwidth for the small social signals that hold conversations together. If you
+    have a hard interpersonal day tomorrow (a tense meeting, a child needing close
+    attention, a therapeutic conversation), the cheapest investment is sleeping at
+    the time you usually do, tonight.
+
+
+    References
+
+    van der Helm, E., Gujar, N., Walker, M.P. (2010). Sleep Deprivation Impairs the
+    Accurate Recognition of Human Emotions. Sleep, 33(3), 335-342. https://pmc.ncbi.nlm.nih.gov/articles/PMC2831427/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2831427/
+    title: Sleep Deprivation Impairs the Accurate Recognition of Human Emotions
+    authors: van der Helm E, Gujar N, Walker MP
+    year: 2010
+    published_at: 2010-03
+    verified_at: '2026-05-03T03:05:00+01:00'
+    verified_status: 200
+    supporting_passage: 'marked and significant blunting in the recognition of Angry
+      and Happy affective expressions in the moderate (but not extreme) emotional
+      intensity range. Sample: 37 healthy participants (21 females, age 18-25 years);
+      ~31 hours total sleep deprivation. Disrupted medial prefrontal cortex regions,
+      particularly the anterior cingulate cortex (ACC), impair the ability to accurately
+      code and consequently rate stimuli that elicit stronger autonomic arousal. Sleep
+      deprivation disrupts ACC function needed for evaluating high-arousal emotions
+      (Anger, Happy) but not low-arousal sadness.'
+  generated_at: '2026-05-03T03:05:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-15':
+  status: GENERATED
+  category: emotional
+  stub: Therapy outcomes for depression and concurrent insomnia treatment
+  subject: '[Cld] Sleep Nudge - 2026-05-15 - emotional: Therapy outcomes for depression
+    and concurrent insomnia treatment'
+  body: 'Therapy outcomes for depression and concurrent insomnia treatment
+
+
+    --- Scientific section ---
+
+
+    Depression and insomnia co-occur in roughly 75-90% of depressed patients, and
+    converging trial evidence shows treating both concurrently produces better outcomes
+    than treating depression alone. Asarnow''s review (2019) reports that adding cognitive
+    behavioural therapy for insomnia (CBT-I) to standard antidepressant management
+    roughly doubles antidepressant treatment response rates and reduces suicidality
+    by approximately half. In one pilot trial, MDD remission rose from 33% with escitalopram
+    plus a control therapy to 62% with escitalopram plus CBT-I. Mechanistically, the
+    hypothalamic-pituitary-adrenal (HPA) axis is a leading shared substrate: chronic
+    stress and disturbed sleep both produce sustained cortisol elevation, blunted
+    morning rise, and impaired negative feedback, which feed forward into hippocampal
+    volume loss, prefrontal hypoactivity, and amygdala hyper-reactivity - the same
+    circuitry implicated in depressive cognition. Crucially, mediation analyses show
+    that improvement in insomnia symptoms statistically precedes and mediates depression
+    remission, not the reverse - so sleep is acting as an active lever, not a passive
+    marker.
+
+
+    --- Plain-language section ---
+
+
+    If you have low mood and you sleep badly, treating the sleep is not optional -
+    it nearly doubles the chance the depression treatment actually works, and roughly
+    halves suicidal thinking. Going to bed on time tonight is not just rest. It is
+    part of the treatment.
+
+
+    --- References ---
+
+
+    Asarnow, L.D. (2019). Depression and sleep: what has the treatment research revealed
+    and could the HPA axis be a potential mechanism? Current Opinion in Psychology.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC8412030/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8412030/
+    title: 'Depression and sleep: what has the treatment research revealed and could
+      the HPA axis be a potential mechanism?'
+    authors: Asarnow, L.D.
+    year: 2019
+    published_at: 2019-12
+    verified_at: '2026-05-02T00:00:00Z'
+    verified_status: 200
+    supporting_passage: In response to a physiological or psychological stressor,
+      the HPA axis is activated and a hormonal cascade is initiated starting with
+      the secretion of corticotropin-releasing hormone (CRH) from the hypothalamus,
+      which then stimulates the anterior pituitary gland to release adrenocorticotropic
+      hormone (ACTH). ACTH then stimulates release of cortisol from the adrenal gland,
+      resulting in a variety of physiological responses from the sympathetic nervous
+      system (e.g. the release of adrenaline, increased heart rate, and increased
+      blood pressure).
+  generated_at: '2026-05-02T00:00:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-16':
+  status: GENERATED
+  category: recovery
+  stub: Bone remodelling balance and growth hormone secretion overnight
+  subject: '[Cld] Sleep Nudge - 2026-05-16 - recovery: Bone remodelling balance and
+    growth hormone secretion overnight'
+  body: 'Bone is not static; it remodels continuously, and the formation-versus-resorption
+    balance is partly set by overnight growth-hormone (GH) pulses. The largest GH
+    pulse of the 24-hour cycle is locked to the first cycle of slow-wave sleep after
+    sleep onset. GH binds receptors on osteoblasts and chondrocytes and exerts a direct
+    anabolic action: it stimulates cell proliferation and differentiation, and works
+    in concert with locally-secreted IGF-1 to drive bone formation (Locatelli & Bianchi
+    2014). The GH receptor signals through JAK2 and downstream STAT-1/3/5 to upregulate
+    osteoblast-specific transcription. GH also induces osteoprotegerin (OPG) production
+    by osteoblasts, which sequesters RANKL and tempers osteoclast activation - the
+    net effect being that the OPG:RANKL ratio shifts toward formation rather than
+    resorption. Adults with chronic short or fragmented sleep show blunted nocturnal
+    GH pulses; over years, this is one of several pathways through which sleep loss
+    is associated with reduced bone mineral density and slower fracture healing.
+
+
+    Plain language: the largest growth-hormone pulse of your day is fired off at the
+    start of deep sleep. If you are recovering from a fracture, training hard, or
+    in any season of life where bone density matters (perimenopause, immobilisation),
+    going to bed before the first slow-wave window matters mechanically, not just
+    for tiredness.
+
+
+    References
+
+    Locatelli, V., Bianchi, V.E. (2014). Effect of GH/IGF-1 on Bone Metabolism and
+    Osteoporosis. International Journal of Endocrinology, 2014, 235060. https://pmc.ncbi.nlm.nih.gov/articles/PMC4132406/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4132406/
+    title: Effect of GH/IGF-1 on Bone Metabolism and Osteoporosis
+    authors: Locatelli V, Bianchi VE
+    year: 2014
+    published_at: 2014-07
+    verified_at: '2026-05-03T03:10:00+01:00'
+    verified_status: 200
+    supporting_passage: Osteoblasts and chondrocytes have receptors for GH and the
+      administration of GH at physiological doses exerts a direct action on osteoblasts,
+      stimulating cell proliferation and differentiation. The activated GHR is associated
+      with JAK2 which phosphorylates STATs-1, -3, -5a, and 5b. The induction of osteoprotegerin
+      by GH may temper IGF-1-stimulated osteoclastogenesis. GH stimulates local IGF-1
+      production in osteoblasts.
+  generated_at: '2026-05-03T03:10:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-17':
+  status: GENERATED
+  category: cardiovascular
+  stub: Endothelial nitric oxide bioavailability and slow-wave sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-17 - cardiovascular: Endothelial nitric oxide
+    bioavailability and slow-wave sleep'
+  body: 'Tonight''s nudge: protect the slow-wave sleep that keeps your blood vessels
+    relaxed.
+
+
+    Scientific section
+
+    Flow-mediated dilation (FMD) is the brachial-artery diameter expansion produced
+    when shear stress triggers endothelial nitric oxide synthase (eNOS) to release
+    NO into vascular smooth muscle, causing relaxation. Cooper et al. (2014) measured
+    FMD by ultrasound and overnight polysomnography in 100 adults and found that diminished
+    FMD tracked both subjective sleep complaints and objective sleep architecture:
+    lower FMD was associated with poorer PSQI global scores (beta = -0.22) and with
+    reduced %REM sleep (beta = 0.25) plus longer REM latency (beta = -0.20), all p
+    < 0.05. The mechanistic link is that brain NO production helps gate the descent
+    into REM and slow-wave sleep, while peripheral NO from eNOS produces vasodilation;
+    both pools depend on overlapping arginine substrate, BH4 cofactor, and oxidative-stress-sensitive
+    coupling pathways. When sleep is curtailed, eNOS uncoupling and elevated asymmetric
+    dimethylarginine reduce NO bioavailability, the artery loses its relaxation reserve,
+    and this shows up as a smaller FMD response the next morning.
+
+
+    Plain-language section
+
+    Your blood vessels need a chemical called nitric oxide to relax properly. Deep
+    and REM sleep help your body make and use it well. If you cut sleep short tonight,
+    the lining of your arteries will be measurably stiffer tomorrow. Going to bed
+    now is a direct investment in tomorrow''s vascular function.
+
+
+    References
+
+    Cooper, D. C., Ziegler, M. G., Milic, M. S., Ancoli-Israel, S., Mills, P. J.,
+    Loredo, J. S., von Kanel, R., & Dimsdale, J. E. (2014). Endothelial Function and
+    Sleep: Associations of Flow-Mediated Dilation With Perceived Sleep Quality and
+    Rapid Eye Movement (REM) Sleep. Journal of Sleep Research. https://pmc.ncbi.nlm.nih.gov/articles/PMC3947135/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3947135/
+    title: 'Endothelial Function and Sleep: Associations of Flow-Mediated Dilation
+      With Perceived Sleep Quality and Rapid Eye Movement (REM) Sleep'
+    authors: Cooper DC, Ziegler MG, Milic MS, Ancoli-Israel S, Mills PJ, Loredo JS,
+      von Kanel R, Dimsdale JE
+    year: 2014
+    published_at: 2014-02
+    verified_at: '2026-05-02T12:05:00Z'
+    verified_status: 200
+    supporting_passage: It is intriguing that not only was decreased FMD associated
+      with poorer subjective sleep quality, particularly subjective daytime dysfunction,
+      but that it also was associated with decreased %REM sleep and with increased
+      latency of REM sleep. While nitric oxide in the brain facilitates REM sleep,
+      FMD is a functional measure of nitric oxide-mediated vasodilation. However,
+      FMD did have a marginal bivariate association with SWS, which may have become
+      significant if more statistical power was available. Interestingly, SWS and
+      REM are both partially facilitated by nitric oxide.
+  generated_at: '2026-05-02T12:05:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-18':
+  status: GENERATED
+  category: cardiovascular
+  stub: Sympathovagal balance during sleep onset and cardiovascular reactivity
+  subject: '[Cld] Sleep Nudge - 2026-05-18 - cardiovascular: Sympathovagal balance
+    during sleep onset and cardiovascular reactivity'
+  body: 'Falling asleep is a controlled autonomic manoeuvre - parasympathetic dominance
+    has to take over from sympathetic dominance over the first few minutes of sleep
+    onset, and the success of that handover sets the cardiovascular load through the
+    entire night. Heart rate variability (HRV), particularly the high-frequency /
+    respiratory-sinus-arrhythmia component, indexes vagal tone in real time. In a
+    cross-sectional study of 222 mothers (125 with chronic caregiving stressors, 97
+    without), individuals with lower resting HRV were more likely to report poorer
+    sleep quality, and lower HRV correlated with higher blood pressure and cortisol
+    - a hyperarousal phenotype that prevents the normal sleep-onset autonomic shift
+    (da Estrela et al. 2020). Mechanistically, HRV is regulated by vagal afferent
+    input integrated through prefrontal-amygdala-brainstem circuits that gate parasympathetic
+    output to the sinoatrial node; chronic stress weakens this gating, leaves sympathetic
+    tone elevated at bedtime, and perpetuates the cardiovascular reactivity that elevates
+    the morning surge.
+
+
+    Plain language: a calmer mind at bedtime is a slower, more variable heart, which
+    is what your sleep-onset autonomic shift needs. If you''re under chronic stress,
+    the few minutes before lights-out matter more than the same minutes earlier in
+    the day - they decide what your heart does for the next eight hours.
+
+
+    References
+
+    da Estrela, C., McGrath, J., Booij, L., Gouin, J.-P. (2020). Heart Rate Variability,
+    Sleep Quality, and Depression in the Context of Chronic Stress. Annals of Behavioral
+    Medicine, 55(2), 155-164. https://pmc.ncbi.nlm.nih.gov/articles/PMC7962885/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7962885/
+    title: Heart Rate Variability, Sleep Quality, and Depression in the Context of
+      Chronic Stress
+    authors: da Estrela C, McGrath J, Booij L, Gouin J-P
+    year: 2020
+    published_at: 2020-12
+    verified_at: '2026-05-03T03:15:00+01:00'
+    verified_status: 200
+    supporting_passage: Individuals with lower HRV were more likely to report poorer
+      sleep quality in the context of chronic stressor exposure. Lower HRV is associated
+      with increased physiological arousal as indicated by increased blood pressure
+      and cortisol. HRV is regulated by the integration of afferent projections from
+      the periphery to the brain via the vagal nerve and efferent projections connecting
+      the prefrontal cortex with the amygdala and the brain stem where parasympathetic
+      output to the sinoatrial node of the heart is gated. N=222 mothers (125 with
+      chronic caregiving stress; 97 comparison group).
+  generated_at: '2026-05-03T03:15:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-19':
+  status: GENERATED
+  category: metabolic
+  stub: Adiponectin secretion rhythm and metabolic flexibility
+  subject: '[Cld] Sleep Nudge - 2026-05-19 - metabolic: Adiponectin secretion rhythm
+    and metabolic flexibility'
+  body: 'Adiponectin is the adipose-derived hormone that flips the liver and skeletal
+    muscle into fat-oxidising, insulin-sensitive mode, and its secretion runs on a
+    circadian rhythm aligned with hepatic adiponectin-receptor (AdipoR1/2) availability
+    and PPAR-alpha-driven gene expression. In adiponectin-knockout (APN-/-) versus
+    wild-type C57BL/6J mice, glucose tolerance was indistinguishable at one circadian
+    phase but significantly worse at the opposite phase: APN-/- mice had significantly
+    lower insulin secretion at CT22 (when adiponectin peaks) and PPAR-alpha target
+    genes (Mtp, ApoB100, Insig2a) failed to peak at CT22 in the APN-/- arm (Wada et
+    al. 2022). VLDL-triglyceride secretion was time-dependent only in wild-type mice.
+    Mechanistically, the adiponectin rhythm gates AMPK activation, fatty-acid oxidation,
+    and the partitioning of hepatic energy substrates - this is metabolic flexibility,
+    the ability to switch between fuel sources cleanly. Sleep restriction and circadian
+    disruption both blunt the adiponectin rhythm in humans, contributing to the metabolic-syndrome
+    phenotype.
+
+
+    Plain language: an under-appreciated reason regular sleep timing protects you
+    from type 2 diabetes is that the hormone responsible for your liver and muscle
+    being good at switching fuels has its own clock. Late or irregular nights flatten
+    that clock and leave the switching machinery permanently in the worse mode.
+
+
+    References
+
+    Wada, T., Yamamoto, Y., Takasugi, Y., et al. (2022). Adiponectin regulates the
+    circadian rhythm of glucose and lipid metabolism. Journal of Endocrinology, 254(2),
+    121-133. https://pmc.ncbi.nlm.nih.gov/articles/PMC9354065/
+
+
+    ---
+
+    '
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9354065/
+    title: Adiponectin regulates the circadian rhythm of glucose and lipid metabolism
+    authors: Wada T, Yamamoto Y, Takasugi Y, Ishii H, Uchiyama T, Saitoh K, Suzuki
+      M, Uchiyama M, Yoshitane H, Fukada Y, Shimba S
+    year: 2022
+    published_at: 2022-06
+    verified_at: '2026-05-03T03:20:00+01:00'
+    verified_status: 200
+    supporting_passage: The expression levels of Ppar-alpha and its target genes showed
+      circadian changes and peaked at CT22 in the APN (+/+) mice. However, these expression
+      peaks at CT22 were not observed in the APN (-/-) mice. During the GTT, the insulin
+      level in the APN (-/-) mice was similar to that of the APN (+/+) mice at CT10,
+      but it was significantly lower than that of the APN (+/+) mice at CT22. Hepatic
+      adiponectin receptors peaked at CT22 matching serum adiponectin peak.
+  generated_at: '2026-05-03T03:20:00+01:00'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-20':
+  status: GENERATED
+  category: neurological
+  stub: CSF-ISF exchange amplitude during NREM slow-wave sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-20 - neurological: CSF-ISF exchange amplitude
+    during NREM slow-wave sleep'
+  body: 'Wednesday sleep nudge - neurological
+
+
+    Topic: CSF-ISF exchange amplitude during NREM slow-wave sleep
+
+
+    Scientific
+
+    During NREM sleep, cerebrospinal fluid (CSF) flow through the brain''s perivascular
+    spaces shifts from a small respiratory-driven rhythm (~0.25 Hz during wake) to
+    large-amplitude oscillations centred near 0.05 Hz - waves of CSF inflow arriving
+    roughly every 20 seconds, with the CSF signal showing approximately a 5.52 dB
+    increase at this frequency relative to wake. These CSF pulses are tightly coupled
+    to the slow-delta (0.2-4 Hz) EEG oscillations characteristic of NREM3: neural
+    slow waves precede the CSF wave by about 6.4 seconds, and the resulting CSF inflow
+    drives bulk exchange with interstitial fluid (ISF) that flushes neurotoxic proteins
+    (including amyloid-beta and tau) out via perivenous pathways. Recent work (Nair
+    et al. 2025) shows that in deep NREM3, cerebral blood volume amplitude actually
+    decreases toward wake-like levels while CSF amplitude stays significantly elevated
+    - a desynchronization that the authors attribute to reduced brain tissue resistance,
+    allowing sustained CSF inflow without proportional vascular pulsation. Sleeping
+    less, or sleeping more shallowly, shrinks the time window in which this high-amplitude
+    clearance can occur.
+
+
+    Plain language
+
+    Deep sleep is when your brain rinses itself. Big slow waves of CSF wash through
+    every ~20 seconds, carrying away the metabolic waste your neurons made during
+    the day. Skip that, and the rinse cycle does not run.
+
+
+    References
+
+    - Nair VV, Kish BR, Oshima H, Wright AM, Wen Q, Schwichtenberg AJ, Tong Y (2025).
+    Amplitude fluctuations of cerebrovascular oscillations and CSF movement desynchronize
+    during NREM3 sleep. Journal of Cerebral Blood Flow & Metabolism. https://pmc.ncbi.nlm.nih.gov/articles/PMC12081394/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12081394/
+    title: Amplitude fluctuations of cerebrovascular oscillations and CSF movement
+      desynchronize during NREM3 sleep
+    authors: Nair VV, Kish BR, Oshima H, Wright AM, Wen Q, Schwichtenberg AJ, Tong
+      Y
+    year: 2025
+    published_at: 2025-05
+    verified_at: '2026-05-02T12:00:00Z'
+    verified_status: 200
+    supporting_passage: '"CSF variance in NREM3 stays significantly elevated in comparison
+      to wake levels...similar to NREM1 and NREM2" ... "GS variance during NREM3 resembles
+      wake levels and is significantly lower compared to light NREM states" ... During
+      deep NREM3 sleep, cerebral blood volume amplitude fluctuations decrease to wakefulness-like
+      levels, whereas CSF movement amplitude remains elevated. The researchers propose
+      this desynchronization reflects reduced brain tissue resistance during deep
+      sleep, permitting sustained CSF inflow without proportional vascular oscillations
+      - a mechanism distinct from light NREM stages where CBV and CSF amplitudes increase
+      together.'
+  generated_at: '2026-05-02T12:00:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-21':
+  status: GENERATED
+  category: pain
+  stub: Postoperative pain intensity and pre-operative sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-21 - pain: Postoperative pain intensity and
+    pre-operative sleep'
+  body: 'Thursday sleep nudge - pain
+
+
+    Topic: Postoperative pain intensity and pre-operative sleep
+
+
+    Scientific
+
+    The nights before surgery may be the single most modifiable predictor of how much
+    your operation will hurt. In a prospective study of adults undergoing open-heart
+    valve surgery, Zhang et al. (2020) found that preoperative poor sleep quality
+    (Pittsburgh Sleep Quality Index >5) independently raised the risk of postoperative
+    hyperalgesia by 2.66-fold (adjusted OR 2.66; 95% CI 1.31-5.39, p=0.007), with
+    an even stronger 3.40-fold risk in nonsmoking patients. The mechanism stacks several
+    pathways: total sleep deprivation lowers pain thresholds, impairs descending conditioned
+    pain modulation, and facilitates temporal summation of nociceptive input - meaning
+    the same surgical insult is amplified as it ascends the neuraxis. Sleep loss also
+    drives systemic and central inflammation (IL-6, TNF-alpha, microglial priming)
+    that sensitises peripheral and dorsal-horn nociceptors, while elevated adenosine
+    signalling appears to upshift pain sensitivity directly. Net effect: a poor pre-op
+    sleeper arrives at the table with a hyperalgesic, pro-inflammatory nervous system,
+    and predictably leaves needing more opioid for the same operation.
+
+
+    Plain language
+
+    If you have surgery coming up, the sleep you get in the days before it changes
+    how badly the wound will hurt afterwards. Poor sleepers in this study were 2-3x
+    more likely to develop hyperalgesia. Tonight''s sleep is part of your pre-op prep.
+
+
+    References
+
+    - Zhang Z, Wang H, Wang Y, Luo Q, Yuan S, Yan F (2020). Risk of Postoperative
+    Hyperalgesia in Adult Patients with Preoperative Poor Sleep Quality Undergoing
+    Open-heart Valve Surgery. Journal of Pain Research. https://pmc.ncbi.nlm.nih.gov/articles/PMC7568632/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7568632/
+    title: Risk of Postoperative Hyperalgesia in Adult Patients with Preoperative
+      Poor Sleep Quality Undergoing Open-heart Valve Surgery
+    authors: Zhang Z, Wang H, Wang Y, Luo Q, Yuan S, Yan F
+    year: 2020
+    published_at: 2020-10
+    verified_at: '2026-05-02T12:00:00Z'
+    verified_status: 200
+    supporting_passage: '"Preoperative poor sleep quality was associated independently
+      with an increased risk of postoperative HA (adjusted OR: 2.66; 95%CI: 1.31-5.39,
+      P=0.007). Stratification by history of smoking revealed a stronger risk of postoperative
+      HA in nonsmoking patients with preoperative poor sleep quality (AOR: 3.40; 95%CI:
+      1.51-7.66, P = 0.003)."'
+  generated_at: '2026-05-02T12:00:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-22':
+  status: GENERATED
+  category: hormonal
+  stub: Cortisol slope flattening and chronic stress sleep loss
+  subject: '[Cld] Sleep Nudge - 2026-05-22 - hormonal: Cortisol slope flattening and
+    chronic stress sleep loss'
+  body: 'Friday sleep nudge - hormonal
+
+
+    Topic: Cortisol slope flattening and chronic stress sleep loss
+
+
+    Scientific
+
+    A healthy diurnal cortisol curve has a sharp morning peak (the cortisol awakening
+    response, ~30-45 min after waking) and a steep decline across the day, reaching
+    a nadir near sleep onset. Chronic psychosocial stress - and the truncated, fragmented
+    sleep that travels with it - flattens that slope in two stereotyped ways: a lower-than-typical
+    morning peak with little daytime decline, or an elevated late-afternoon and evening
+    level that erases the descent. Adam et al. (2017), in a meta-analysis of 80 studies,
+    found flatter slopes were associated with poorer outcomes in 10 of 12 health subtypes
+    examined (mean r = .147, 95% CI .112-.183), with the largest effects on immune/inflammatory
+    markers. Mechanistically, repeated cortisol elevations break down the glucocorticoid-receptor-mediated
+    negative feedback that normally damps HPA output; deep slow-wave sleep is the
+    principal nightly inhibitor of CRH/ACTH release, so when SWS shrinks (as in insomnia,
+    which raises 24-hour ACTH and cortisol), the brake is released. The flattened
+    slope is therefore both a consequence of poor sleep and a driver of further sleep
+    disruption, depression, visceral adiposity, and immune dysregulation - a self-reinforcing
+    loop.
+
+
+    Plain language
+
+    Your cortisol should spike in the morning and drop steeply by night. Chronic stress
+    and short sleep flatten that curve, and the flatter your curve, the worse your
+    inflammation, mood, and metabolism. Deep sleep tonight is what resets the slope.
+
+
+    References
+
+    - Adam EK, Quinn ME, Tavernier R, McQuillan MT, Dahlke KA, Gilbert KE (2017).
+    Diurnal Cortisol Slopes and Mental and Physical Health Outcomes: A Systematic
+    Review and Meta-analysis. Psychoneuroendocrinology. https://pmc.ncbi.nlm.nih.gov/articles/PMC5568897/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5568897/
+    title: 'Diurnal Cortisol Slopes and Mental and Physical Health Outcomes: A Systematic
+      Review and Meta-analysis'
+    authors: Adam EK, Quinn ME, Tavernier R, McQuillan MT, Dahlke KA, Gilbert KE
+    year: 2017
+    published_at: 2017-09
+    verified_at: '2026-05-02T12:00:00Z'
+    verified_status: 200
+    supporting_passage: '"Flatter diurnal cortisol slopes have been proposed as a
+      mediator between chronic psychosocial stress and poor mental and physical health
+      outcomes" (effect size: r = .147, 95% CI .112-.183). Two forms of flattened
+      slopes have been found to be associated with chronic stress: in one pattern,
+      the early-morning level is lower than typical and there is less decline over
+      the day; in the other, the late-afternoon and evening level is elevated, which
+      also results in less decline over the day. Flatter slopes were associated with
+      poorer health in 10 out of 12 subtypes of emotional and physical health outcomes
+      examined.'
+  generated_at: '2026-05-02T12:00:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-23':
+  status: GENERATED
+  category: recovery
+  stub: Muscle protein synthesis rates during sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-23 - recovery: Muscle protein synthesis rates
+    during sleep'
+  body: '## Why this matters tonight
+
+
+    Sleep is a uniquely anabolic window for skeletal muscle. While you lie still,
+    fractional synthetic rate (FSR) of both myofibrillar (contractile) and mitochondrial
+    (energy-producing) protein fractions runs steadily, fed by amino acids slowly
+    released from the gut and from intramuscular pools. The overnight rise in growth
+    hormone during slow-wave sleep, plus the relative drop in cortisol early in the
+    night, creates the hormonal milieu that favours net protein accretion. If you
+    cut sleep short you compress this window and you also raise cortisol and lower
+    testosterone the next day, biasing the balance back towards proteolysis.
+
+
+    A randomised controlled trial in trained men by Trommelen et al. (2023) measured
+    overnight FSR using L-[1-13C]-phenylalanine infusion after evening endurance exercise.
+    Mitochondrial protein synthesis rates rose from 0.067 ± 0.016 %/h on placebo to
+    0.092 ± 0.020 %/h with whey protein - a 37 percent increase. Myofibrillar FSR
+    rose from 0.047 ± 0.011 to 0.064 ± 0.018 %/h, a 35 percent increase. Crucially
+    these gains accrue across the full sleep period; truncating sleep truncates the
+    integral. A separate trial (Saner 2020) showed that five nights of sleep restricted
+    to 4 hours dropped 24-hour myofibrillar FSR by 18 percent versus a 9-hour control,
+    even with high-intensity exercise as a counter-stimulus.
+
+
+    ## Plain language
+
+
+    Going to bed now is literally feeding your muscles. The longer you sleep, the
+    longer your body spends building new contractile and mitochondrial protein. Cutting
+    sleep short truncates that window and tilts you towards muscle breakdown the next
+    day.
+
+
+    ## References
+
+
+    - Trommelen J, Holwerda AM, Pinckaers PJM, van Loon LJC (2023). Pre-sleep Protein
+    Ingestion Increases Mitochondrial Protein Synthesis Rates During Overnight Recovery
+    from Endurance Exercise: A Randomized Controlled Trial. Sports Medicine. https://pmc.ncbi.nlm.nih.gov/articles/PMC10289916/
+
+    - Saner NJ et al. (2020). The effect of sleep restriction, with or without high-intensity
+    interval exercise, on myofibrillar protein synthesis in healthy young men. Journal
+    of Physiology. https://pmc.ncbi.nlm.nih.gov/articles/PMC7217042/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10289916/
+    title: 'Pre-sleep Protein Ingestion Increases Mitochondrial Protein Synthesis
+      Rates During Overnight Recovery from Endurance Exercise: A Randomized Controlled
+      Trial'
+    authors: Trommelen J, Holwerda AM, Pinckaers PJM, van Loon LJC
+    year: 2023
+    published_at: 2023-07
+    verified_at: '2026-05-02T12:05:00Z'
+    verified_status: 200
+    supporting_passage: Overnight myofibrillar protein synthesis rates were significantly
+      higher in the PROTEIN treatments (0.060 ± 0.014%·h-1) when compared with the
+      PLA treatment (p = 0.012). Overnight mitochondrial protein synthesis rates were
+      significantly higher in the PROTEIN treatments (0.087 ± 0.020%·h-1) when compared
+      with the PLA treatment (p = 0.005). Whey protein produced 0.092 ± 0.020%·h-1
+      versus placebo at 0.067 ± 0.016%·h-1, a 37% increase in mitochondrial protein
+      synthesis during overnight recovery from endurance exercise.
+  generated_at: '2026-05-02T12:05:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
+'2026-05-24':
+  status: GENERATED
+  category: neurological
+  stub: Amyloid-beta production and clearance kinetics across wake and sleep
+  subject: '[Cld] Sleep Nudge - 2026-05-24 - neurological: Amyloid-beta production
+    and clearance kinetics across wake and sleep'
+  body: 'Sunday sleep nudge - neurological
+
+
+    Topic: Amyloid-beta production and clearance kinetics across wake and sleep
+
+
+    Scientific
+
+    Amyloid-beta (Abeta) - the peptide whose aggregation defines Alzheimer''s pathology
+    - rises in CSF during wake and falls during sleep on a daily oscillation of roughly
+    25-30%. Lucey et al. (2017) used stable-isotope-labelling kinetics (SILK) combined
+    with mass spectrometry to disentangle why: they simultaneously measured absolute
+    Abeta concentration and fractional turnover, production, and exchange rates across
+    the wake-sleep cycle in cognitively normal adults. Two mechanisms drive the diurnal
+    pattern. First, neuronal activity is higher during wake, so Abeta production rises
+    with synaptic firing; conversely, neuronal activity falls during sleep, particularly
+    during NREM. Second, ISF bulk flow (the glymphatic clearance route) increases
+    during sleep, raising the fractional clearance rate of Abeta from brain interstitium
+    to CSF and onward to perivenous drainage. A separate study by the same group showed
+    acute sleep deprivation raised overnight Abeta-38, Abeta-40, and Abeta-42 by 25-30%,
+    driven primarily by increased production rather than reduced clearance. In amyloid-positive
+    individuals, plaque deposition itself acts as a sink for Abeta-42 - flattening
+    its day/night amplitude - so a damaged sleep architecture and an amyloid-laden
+    brain feed each other in a feed-forward loop.
+
+
+    Plain language
+
+    Every hour you stay awake, your brain makes more amyloid - the protein that builds
+    Alzheimer''s plaques. Sleep is when production drops AND clearance kicks in. One
+    night of skimped sleep raises overnight amyloid by ~30%. This is not a ''someday''
+    problem; it accumulates nightly.
+
+
+    References
+
+    - Lucey BP, Mawuenyega KG, Patterson BW, Elbert DL, Ovod V, Kasten T, Morris JC,
+    Bateman RJ (2017). Associations Between beta-Amyloid Kinetics and the beta-Amyloid
+    Diurnal Pattern in the Central Nervous System. JAMA Neurology. https://pmc.ncbi.nlm.nih.gov/articles/PMC5305432/
+
+
+    ---'
+  references:
+  - url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5305432/
+    title: Associations Between beta-Amyloid Kinetics and the beta-Amyloid Diurnal
+      Pattern in the Central Nervous System
+    authors: Lucey BP, Mawuenyega KG, Patterson BW, Elbert DL, Ovod V, Kasten T, Morris
+      JC, Bateman RJ
+    year: 2017
+    published_at: 2017-02
+    verified_at: '2026-05-02T12:00:00Z'
+    verified_status: 200
+    supporting_passage: '"Decreased Aβ production and increased clearance during sleep
+      have been hypothesized to drive the day/night oscillation." "Analysis of Aβ
+      SILK kinetics generated three key measures of Aβ kinetics representing the fractional
+      turnover rates, absolute production rates, and an exchange process." Production
+      and turnover rates suggest that day/night Aβ patterns are modulated by both
+      production and clearance mechanisms active in sleep-wake cycles, and that amyloid
+      deposition may impair normal circadian patterns. Deposition into amyloid plaques
+      acts as a sink and is the dominant factor affecting the Aβ42 amplitude and linear
+      rise in amyloid-positive individuals.'
+  generated_at: '2026-05-02T12:00:00Z'
+  generator_model: claude-opus-4-7
+  generator_session: 20260502-sleep-nudge-revisited
