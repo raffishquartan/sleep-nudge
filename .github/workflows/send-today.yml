@@ -2,7 +2,7 @@ name: Send Today
 
 on:
   schedule:
-    - cron: "0 22 * * *"  # 22:00 UTC daily
+    - cron: "30 21 * * *"  # 21:30 UTC daily
   workflow_dispatch:
 
 permissions:
