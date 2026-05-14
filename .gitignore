@@ -5,3 +5,4 @@ __pycache__/
 .claude/
 cc-out*/
 cc-working*/
+.install-cache
