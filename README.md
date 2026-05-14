@@ -15,10 +15,13 @@ Each nudge is a short passage of peer-reviewed sleep science: one specific mecha
 - A Gmail account you are happy to send automated email from (you'll create an App Password for it, so 2-Step Verification needs to be enabled).
 - A Claude Code subscription (Pro or Max). Generation uses `web_search` + `web_fetch` and is cost-effective on a subscription; using the API directly would cost ~$6-$10/month.
 - A GitHub account. The daily mailman runs as a free GitHub Action under your fork.
+- Git credentials on the machine where you run the generation skill (`gh auth login` or an SSH key), so the skill can push generated entries back to your fork. This is only needed on the machine running Claude Code - the daily GitHub Action only reads the committed entries and does not push anything.
 
 ## Setup
 
 ### 1. Fork and clone
+
+**You must fork, not just clone.** The generation skill commits pre-generated entries directly to `entries/YYYY-MM.yaml` and pushes them to your repository - this is how the daily mailman gets its content. You need a fork you have write access to so those pushes succeed. The daily GitHub Action runs on your fork and reads the committed files; it only needs read access, but it must be your fork so your GitHub Secrets (email credentials) are available to it.
 
 Fork this repository to your GitHub account, then clone your fork locally:
 
@@ -42,11 +45,18 @@ You'll be asked for:
 | `REPO_ROOT` | Absolute path to your local clone (defaults to the current directory). |
 | `ALLOWED_RECIPIENT` | The Gmail address where the daily nudge and the post-generation summary should land. |
 | `ALLOWED_SENDER` | The Gmail address that will send the email (the account whose App Password you'll set up in step 3). |
-| `SUMMARY_SUBJECT_PREFIX` | Subject prefix for the post-generation summary email. Default `"Sleep Nudge generation summary "`. |
+| `SUMMARY_SUBJECT_PREFIX` | Subject prefix for the post-generation summary email. Sent to `ALLOWED_RECIPIENT`. Default `"Sleep Nudge generation summary "`. |
 | `NUDGE_SUBJECT_PREFIX` | Subject prefix for the daily nudge emails. Default `"Sleep Nudge - "`. |
 | `COMMIT_SUFFIX` | Optional trailing line for any git commit messages the skill makes (leave blank for none). |
 
 The script renders the templated skill bundle and writes it to `~/.claude/skills/generate-sleep-nudges/` (override with `./install.sh --target /custom/path`). It's idempotent - re-running prompts again with your previous answers as defaults.
+
+To test the install without overwriting an existing skill installation, use `--target` to write to a temporary directory:
+
+```bash
+./install.sh --target /tmp/test-sleep-nudge
+ls /tmp/test-sleep-nudge/SKILL.md
+```
 
 ### 3. Create a Gmail App Password
 
@@ -76,14 +86,13 @@ In any Claude Code session, invoke:
 
 The skill walks the algorithm in `~/.claude/skills/generate-sleep-nudges/references/algorithm.md`. A first-time run generates 30 days of nudges and takes ~1 hour of wall-clock time. When it finishes you'll receive a summary email and the entries will be committed to `entries/YYYY-MM.yaml`. Push that commit.
 
-### 7. Schedule monthly regeneration (optional but recommended)
+### 7. Set up a monthly reminder (optional but recommended)
 
-In Claude Code, run `/schedule` and create a routine:
+Generation must run in a **local** Claude Code session - it needs a cloned copy of your fork and git credentials to push the results back. The cloud cannot do this step.
 
-- Cron: `0 9 25 * *` (09:00 UTC on day-of-month 25)
-- Prompt: `/generate-sleep-nudges`
+**Built-in reminder (no setup needed):** The daily GitHub Action emails you a `BUFFER LOW` warning when fewer than 7 entries remain, and an `OVERDUE` alert if the buffer runs dry. If 30 days are generated in one batch, the `BUFFER LOW` email arrives around day 23 of the cycle - plenty of time to regenerate before you run out.
 
-This runs in Anthropic's cloud, so your laptop being off doesn't matter. If you don't set this up, you'll get a `BUFFER LOW` email 7 days before the buffer runs out, and an `OVERDUE` email if it runs out entirely - both prompt you to run `/generate-sleep-nudges` manually.
+**Optional proactive reminder:** To get a heads-up reminder on the 25th of each month rather than waiting for the `BUFFER LOW` email, you can ask Claude Code to create a cloud routine. Share `docs/setup-monthly-routine-prompt.md` with Claude Code in any session and say "create the monthly routine described in this file." Claude Code will use `/schedule` to set it up and pick whatever notification method is available in your environment.
 
 ## Daily mailman behaviour
 

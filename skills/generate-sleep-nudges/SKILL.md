@@ -20,11 +20,12 @@ The sleep-nudge GitHub Actions workflow sends one short, evidence-grounded sleep
 
 Recommended: run once a month, around day 25 of the calendar month, with no arguments. That generates the next 30 days, comfortably ahead of the daily mailman's needs.
 
-Three robust ways to make that happen, in increasing autonomy:
+This skill **must run in a local Claude Code session** - it writes YAML files to a cloned copy of the repository and pushes them to GitHub, which requires local git credentials. A cloud-scheduled routine cannot do this.
 
-1. **Manual.** Run `/generate-sleep-nudges` whenever you feel like it. The daily mailman will email you `BUFFER LOW` 7 days before it runs out, and `OVERDUE` if it does run out. Both alerts include the action prompt.
-2. **`/schedule` cron (recommended).** In any Claude Code session, run `/schedule` and create a recurring routine: cron `0 9 25 * *` (09:00 UTC on day-of-month 25), prompt = `/generate-sleep-nudges`. Runs in Anthropic's cloud, laptop-off works.
-3. **`/loop` poll.** If `/schedule` is unavailable for any reason, `/loop 30d /generate-sleep-nudges` works but requires a Claude Code session to be running.
+Two ways to make monthly regeneration happen:
+
+1. **Rely on the built-in alerts.** The daily GitHub Action emails a `BUFFER LOW` warning when fewer than 7 entries remain (around day 23 of a 30-day batch) and `OVERDUE` if the buffer runs dry. Both are prompts to run this skill locally.
+2. **Set up a proactive reminder.** Share `docs/setup-monthly-routine-prompt.md` from the repository with Claude Code and ask it to "create the monthly routine described in this file." Claude Code will create a cloud routine that fires on the 25th of each month and sends you a reminder via whatever notification method is available.
 
 If `BUFFER LOW` or `OVERDUE` arrives unexpectedly, run `/generate-sleep-nudges` immediately - the buffer is the safety net, alerts mean it has frayed.
 
