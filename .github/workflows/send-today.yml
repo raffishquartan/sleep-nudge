@@ -1,6 +1,11 @@
 name: Send Today
 
 on:
+  # Uncomment the schedule block below to enable daily emails.
+  # Set the cron to your preferred UTC time (example: 20:30 UTC daily).
+  # After uncommenting, commit and push this file to your repository.
+  # schedule:
+  #   - cron: "30 20 * * *"
   workflow_dispatch:
 
 permissions:
