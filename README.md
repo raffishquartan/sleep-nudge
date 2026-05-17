@@ -45,7 +45,7 @@ You'll be asked for:
 | Prompt | What to enter |
 |---|---|
 | `REPO_ROOT` | Absolute path to your local clone (defaults to the current directory). |
-| `ALLOWED_RECIPIENT` | The Gmail address where the daily nudge and the post-generation summary should land. |
+| `ALLOWED_RECIPIENT` | The Gmail address where the post-generation summary email goes (a safety lock - only this address can receive the summary). |
 | `ALLOWED_SENDER` | The Gmail address that will send the email (the account whose App Password you'll set up in step 3). |
 | `SUMMARY_SUBJECT_PREFIX` | Subject prefix for the post-generation summary email. Sent to `ALLOWED_RECIPIENT`. Default `"Sleep Nudge generation summary "`. |
 | `NUDGE_SUBJECT_PREFIX` | Subject prefix for the daily nudge emails. Default `"Sleep Nudge - "`. |
@@ -72,23 +72,36 @@ In your repository's GitHub settings, go to **Settings → Secrets and variables
 |---|---|
 | `GMAIL_ADDRESS` | The sender Gmail address from step 2. |
 | `GMAIL_APP_PASSWORD` | The 16-character App Password from step 3. |
-| `RECIPIENT_ADDRESS` | The recipient Gmail address from step 2. |
+| `RECIPIENT_ADDRESS` | The recipient Gmail address - where your daily nudge will be sent. |
 
-### 5. Test the daily mailman
+### 5. Enable the daily schedule
+
+The workflow ships with the schedule trigger commented out so it doesn't fire on the template itself. Open `.github/workflows/send-today.yml` in your repository, uncomment the `schedule` block, and set your preferred UTC send time:
+
+```yaml
+on:
+  schedule:
+    - cron: "30 20 * * *"  # 20:30 UTC daily — adjust to suit your timezone
+  workflow_dispatch:
+```
+
+Commit and push this change. The Action will start firing daily at the time you set.
+
+### 6. Test the daily mailman
 
 In your repository, go to **Actions → Send Today → Run workflow**. Within a minute or two you should receive either today's nudge (if you've already generated entries) or an `OVERDUE` alert (if you haven't - expected on first setup).
 
-### 6. Generate the buffer
+### 7. Generate the buffer
 
-In any Claude Code session, invoke:
+In any Claude Code session with your cloned repository as the working directory, invoke:
 
 ```
 /generate-sleep-nudges
 ```
 
-The skill walks the algorithm in `~/.claude/skills/generate-sleep-nudges/references/algorithm.md`. A first-time run generates 30 days of nudges and takes ~1 hour of wall-clock time. When it finishes you'll receive a summary email and the entries will be committed to `entries/YYYY-MM.yaml`. Push that commit.
+The skill walks the algorithm in `~/.claude/skills/generate-sleep-nudges/references/algorithm.md`. A first-time run generates 30 days of nudges and takes ~1 hour of wall-clock time. When it finishes you'll receive a summary email and the entries will be committed and pushed to your repository's main branch.
 
-### 7. Set up a monthly reminder (optional but recommended)
+### 8. Set up a monthly reminder (optional but recommended)
 
 Generation must run in a **local** Claude Code session - it needs a cloned copy of your repository and git credentials to push the results back. The cloud cannot do this step.
 
@@ -138,10 +151,10 @@ This covers the daily-mailman and topic-picker logic. The skill has its own test
 ## Local dry-run
 
 ```bash
-python -m scripts.send_today --dry-run --date 2026-05-15 --buffer-threshold 7
+python -m scripts.send_today --dry-run --date $(date +%Y-%m-%d) --buffer-threshold 7
 ```
 
-Reads `entries/YYYY-MM.yaml`, builds the dispatch plan (today's nudge and/or alert emails), prints subjects and bodies, and sends nothing.
+Reads today's entry from `entries/YYYY-MM.yaml`, builds the dispatch plan (nudge and/or alert emails), prints subjects and bodies, and sends nothing. Requires entries to have been generated first.
 
 ## Disclaimer
 
