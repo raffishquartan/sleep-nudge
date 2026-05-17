@@ -14,20 +14,20 @@ Each nudge is a short passage of peer-reviewed sleep science: one specific mecha
 
 - A Gmail account you are happy to send automated email from (you'll create an App Password for it, so 2-Step Verification needs to be enabled).
 - A Claude Code subscription (Pro or Max). Generation uses `web_search` + `web_fetch` and is cost-effective on a subscription; using the API directly would cost ~$6-$10/month.
-- A GitHub account. The daily mailman runs as a free GitHub Action under your fork.
-- Git credentials on the machine where you run the generation skill (`gh auth login` or an SSH key), so the skill can push generated entries back to your fork. This is only needed on the machine running Claude Code - the daily GitHub Action only reads the committed entries and does not push anything.
+- A GitHub account. The daily mailman runs as a free GitHub Action in your repository.
+- Git credentials on the machine where you run the generation skill (`gh auth login` or an SSH key), so the skill can push generated entries back to your repository. This is only needed on the machine running Claude Code - the daily GitHub Action only reads the committed entries and does not push anything.
 
 ## Setup
 
-### 1. Fork and clone
+### 1. Create your instance and clone
 
-**You must fork, not just clone.** The generation skill commits pre-generated entries directly to `entries/YYYY-MM.yaml` and pushes them to your repository - this is how the daily mailman gets its content. You need a fork you have write access to so those pushes succeed. The daily GitHub Action runs on your fork and reads the committed files; it only needs read access, but it must be your fork so your GitHub Secrets (email credentials) are available to it.
+**You need your own repository, not just a clone.** The generation skill commits pre-generated entries directly to `entries/YYYY-MM.yaml` and pushes them to your repository - this is how the daily mailman gets its content. You need a repository you have write access to so those pushes succeed. The daily GitHub Action reads the committed entries; it must run in your repository so your GitHub Secrets (email credentials) are available to it.
 
-Fork this repository to your GitHub account, then clone your fork locally:
+Click **Use this template** on the repository's GitHub page to create your own copy, name it whatever you like, then clone it locally:
 
 ```bash
-git clone git@github.com:<your-username>/sleep-nudge.git
-cd sleep-nudge
+git clone git@github.com:<your-username>/<your-repo-name>.git
+cd <your-repo-name>
 ```
 
 ### 2. Install the generation skill
@@ -64,7 +64,7 @@ Go to <https://myaccount.google.com/apppasswords> (requires 2-Step Verification 
 
 ### 4. Configure GitHub Secrets
 
-In your fork's GitHub settings, go to **Settings → Secrets and variables → Actions** and add:
+In your repository's GitHub settings, go to **Settings → Secrets and variables → Actions** and add:
 
 | Secret | Value |
 |---|---|
@@ -74,7 +74,7 @@ In your fork's GitHub settings, go to **Settings → Secrets and variables → A
 
 ### 5. Test the daily mailman
 
-In your fork, go to **Actions → Send Today → Run workflow**. Within a minute or two you should receive either today's nudge (if you've already generated entries) or an `OVERDUE` alert (if you haven't - expected on first setup).
+In your repository, go to **Actions → Send Today → Run workflow**. Within a minute or two you should receive either today's nudge (if you've already generated entries) or an `OVERDUE` alert (if you haven't - expected on first setup).
 
 ### 6. Generate the buffer
 
@@ -88,7 +88,7 @@ The skill walks the algorithm in `~/.claude/skills/generate-sleep-nudges/referen
 
 ### 7. Set up a monthly reminder (optional but recommended)
 
-Generation must run in a **local** Claude Code session - it needs a cloned copy of your fork and git credentials to push the results back. The cloud cannot do this step.
+Generation must run in a **local** Claude Code session - it needs a cloned copy of your repository and git credentials to push the results back. The cloud cannot do this step.
 
 **Built-in reminder (no setup needed):** The daily GitHub Action emails you a `BUFFER LOW` warning when fewer than 7 entries remain, and an `OVERDUE` alert if the buffer runs dry. If 30 days are generated in one batch, the `BUFFER LOW` email arrives around day 23 of the cycle - plenty of time to regenerate before you run out.
 
@@ -139,7 +139,7 @@ This covers the daily-mailman and topic-picker logic. The skill has its own test
 python -m scripts.send_today --dry-run --date 2026-05-15 --buffer-threshold 7
 ```
 
-Reads `entries/2026-05.yaml`, builds the dispatch plan (today's nudge and/or alert emails), prints subjects and bodies, and sends nothing.
+Reads `entries/YYYY-MM.yaml`, builds the dispatch plan (today's nudge and/or alert emails), prints subjects and bodies, and sends nothing.
 
 ## Disclaimer
 
