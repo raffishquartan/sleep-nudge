@@ -30,6 +30,8 @@ git clone git@github.com:<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 ```
 
+Update `LICENSE.md` with your own name — it currently names the template author.
+
 ### 2. Install the generation skill
 
 Run the install script and answer the prompts:
