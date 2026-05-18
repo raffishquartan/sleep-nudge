@@ -1,1 +1,174 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojCiMgQ29uZmlndXJlIGFuZCBpbnN0YWxsIHRoZSBnZW5lcmF0ZS1zbGVlcC1udWRnZXMgc2tpbGwgaW50byB5b3VyIENsYXVkZSBDb2RlCiMgc2tpbGxzIGRpcmVjdG9yeS4gU3Vic3RpdHV0ZXMgcGVyLXVzZXIgdmFsdWVzIGludG8gdGhlIHNraWxsIHRlbXBsYXRlIGFuZAojIHdyaXRlcyB0aGUgcmVzb2x2ZWQgZmlsZXMgdG8gYSB0YXJnZXQgZGlyZWN0b3J5IChkZWZhdWx0OiB+Ly5jbGF1ZGUvc2tpbGxzL2dlbmVyYXRlLXNsZWVwLW51ZGdlcykuCiMKIyBJZGVtcG90ZW50OiByZS1ydW5uaW5nIHJlLXByb21wdHMgdXNpbmcgdGhlIHZhbHVlcyBmcm9tIHRoZSBwcmV2aW91cyBydW4gYXMKIyBkZWZhdWx0cywgY2FjaGVkIGluIC4vLmluc3RhbGwtY2FjaGUgKGdpdGlnbm9yZWQpLgojCiMgVXNhZ2U6CiMgICAuL2luc3RhbGwuc2ggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgaW50ZXJhY3RpdmUsIGRlZmF1bHQgdGFyZ2V0CiMgICAuL2luc3RhbGwuc2ggLS10YXJnZXQgL2N1c3RvbS9za2lsbHMvZGlyICAgICMgd3JpdGUgdG8gYSBkaWZmZXJlbnQgdGFyZ2V0CiMgICAuL2luc3RhbGwuc2ggLS1oZWxwCgpzZXQgLWV1byBwaXBlZmFpbAoKU0NSSVBUX0RJUj0iJChjZCAiJChkaXJuYW1lICIke0JBU0hfU09VUkNFWzBdfSIpIiAmJiBwd2QpIgpURU1QTEFURV9ESVI9IiR7U0NSSVBUX0RJUn0vc2tpbGxzL2dlbmVyYXRlLXNsZWVwLW51ZGdlcyIKQ0FDSEVfRklMRT0iJHtTQ1JJUFRfRElSfS8uaW5zdGFsbC1jYWNoZSIKREVGQVVMVF9UQVJHRVQ9IiR7SE9NRX0vLmNsYXVkZS9za2lsbHMvZ2VuZXJhdGUtc2xlZXAtbnVkZ2VzIgpUQVJHRVQ9IiIKCnVzYWdlKCkgewogICAgc2VkIC1uICcyLC9eJC9wJyAiJHtCQVNIX1NPVVJDRVswXX0iIHwgc2VkICdzL14jIFw/Ly8nCiAgICBleGl0IDAKfQoKd2hpbGUgW1sgJCMgLWd0IDAgXV07IGRvCiAgICBjYXNlICIkMSIgaW4KICAgICAgICAtLXRhcmdldCkgVEFSR0VUPSIkMiI7IHNoaWZ0IDIgOzsKICAgICAgICAtLWhlbHB8LWgpIHVzYWdlIDs7CiAgICAgICAgKikgZWNobyAiVW5rbm93biBhcmd1bWVudDogJDEiID4mMjsgZXhpdCAyIDs7CiAgICBlc2FjCmRvbmUKClRBUkdFVD0iJHtUQVJHRVQ6LSR7REVGQVVMVF9UQVJHRVR9fSIKCmlmIFtbICEgLWQgIiR7VEVNUExBVEVfRElSfSIgXV07IHRoZW4KICAgIGVjaG8gIkVSUk9SOiB0ZW1wbGF0ZSBkaXJlY3Rvcnkgbm90IGZvdW5kOiAke1RFTVBMQVRFX0RJUn0iID4mMgogICAgZWNobyAiUnVuIHRoaXMgc2NyaXB0IGZyb20gdGhlIHNsZWVwLW51ZGdlIHJlcG8gcm9vdC4iID4mMgogICAgZXhpdCAxCmZpCgojIExvYWQgY2FjaGVkIHZhbHVlcyBpZiBwcmVzZW50CmRlY2xhcmUgLUEgREVGQVVMVFM9KAogICAgW1JFUE9fUk9PVF09IiR7U0NSSVBUX0RJUn0iCiAgICBbQUxMT1dFRF9SRUNJUElFTlRdPSIiCiAgICBbQUxMT1dFRF9TRU5ERVJdPSIiCiAgICBbU1VNTUFSWV9TVUJKRUNUX1BSRUZJWF09IlNsZWVwIE51ZGdlIGdlbmVyYXRpb24gc3VtbWFyeSAiCiAgICBbTlVER0VfU1VCSkVDVF9QUkVGSVhdPSJTbGVlcCBOdWRnZSAtICIKICAgIFtDT01NSVRfU1VGRklYXT0iIgopCgppZiBbWyAtZiAiJHtDQUNIRV9GSUxFfSIgXV07IHRoZW4KICAgICMgc2hlbGxjaGVjayBkaXNhYmxlPVNDMTA5MAogICAgc291cmNlICIke0NBQ0hFX0ZJTEV9IgogICAgZm9yIGtleSBpbiAiJHshREVGQVVMVFNbQF19IjsgZG8KICAgICAgICBjYWNoZWRfdmFyPSJDQUNIRURfJHtrZXl9IgogICAgICAgIGlmIFtbIC1uICIkeyFjYWNoZWRfdmFyOi19IiBdXTsgdGhlbgogICAgICAgICAgICBERUZBVUxUU1ska2V5XT0iJHshY2FjaGVkX3Zhcn0iCiAgICAgICAgZmkKICAgIGRvbmUKZmkKCiMgUHJvbXB0IGZvciBhIHZhbHVlIHdpdGggYSBkZWZhdWx0LiAkMSA9IGtleSwgJDIgPSBwcm9tcHQgZGVzY3JpcHRpb24sICQzID0gcmVxdWlyZWQgKHllcy9ubykKcHJvbXB0X2ZvcigpIHsKICAgIGxvY2FsIGtleT0iJDEiIGRlc2M9IiQyIiByZXF1aXJlZD0iJHszOi15ZXN9IiBkZWZhdWx0PSIke0RFRkFVTFRTWyQxXX0iIGlucHV0CiAgICB3aGlsZSB0cnVlOyBkbwogICAgICAgIGlmIFtbIC1uICIke2RlZmF1bHR9IiBdXTsgdGhlbgogICAgICAgICAgICByZWFkIC1yIC1wICIke2Rlc2N9IFske2RlZmF1bHR9XTogIiBpbnB1dAogICAgICAgICAgICBpbnB1dD0iJHtpbnB1dDotJHtkZWZhdWx0fX0iCiAgICAgICAgZWxzZQogICAgICAgICAgICByZWFkIC1yIC1wICIke2Rlc2N9OiAiIGlucHV0CiAgICAgICAgZmkKICAgICAgICBpZiBbWyAiJHtyZXF1aXJlZH0iID09ICJ5ZXMiICYmIC16ICIke2lucHV0fSIgXV07IHRoZW4KICAgICAgICAgICAgZWNobyAiICAocmVxdWlyZWQgLSBwbGVhc2UgZW50ZXIgYSB2YWx1ZSkiCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZmkKICAgICAgICBlY2hvICIke2lucHV0fSIKICAgICAgICByZXR1cm4gMAogICAgZG9uZQp9Cgp2YWxpZGF0ZV9lbWFpbCgpIHsKICAgIGxvY2FsIHZhbHVlPSIkMSIgbGFiZWw9IiQyIgogICAgaWYgW1sgISAiJHt2YWx1ZX0iID1+IF5bQS1aYS16MC05Ll8lKy1dK0BbQS1aYS16MC05Li1dK1wuW0EtWmEtel17Mix9JCBdXTsgdGhlbgogICAgICAgIGVjaG8gIkVSUk9SOiAke2xhYmVsfSBpcyBub3QgYSB2YWxpZCBlbWFpbCBhZGRyZXNzOiAke3ZhbHVlfSIgPiYyCiAgICAgICAgZXhpdCAxCiAgICBmaQp9CgplY2hvICI9PT0gZ2VuZXJhdGUtc2xlZXAtbnVkZ2VzIGluc3RhbGwgPT09IgplY2hvICJUZW1wbGF0ZTogICR7VEVNUExBVEVfRElSfSIKZWNobyAiVGFyZ2V0OiAgICAke1RBUkdFVH0iCmVjaG8KZWNobyAiUHJlc3MgRW50ZXIgdG8gYWNjZXB0IHRoZSBicmFja2V0ZWQgZGVmYXVsdCwgb3IgdHlwZSBhIG5ldyB2YWx1ZS4iCmVjaG8KClJFUE9fUk9PVD0kKHByb21wdF9mb3IgUkVQT19ST09UICJQYXRoIHRvIHlvdXIgbG9jYWwgY2xvbmUgb2YgdGhlIHNsZWVwLW51ZGdlIHJlcG8iKQpBTExPV0VEX1JFQ0lQSUVOVD0kKHByb21wdF9mb3IgQUxMT1dFRF9SRUNJUElFTlQgIlJlY2lwaWVudCBHbWFpbCBhZGRyZXNzICh3aGVyZSB0aGUgcG9zdC1nZW5lcmF0aW9uIHN1bW1hcnkgZW1haWwgZ29lcykiKQpBTExPV0VEX1NFTkRFUj0kKHByb21wdF9mb3IgQUxMT1dFRF9TRU5ERVIgIlNlbmRlciBHbWFpbCBhZGRyZXNzICh0aGUgYWNjb3VudCB3aG9zZSBBcHAgUGFzc3dvcmQgdGhlIGRhaWx5IG1haWxtYW4gdXNlcykiKQpTVU1NQVJZX1NVQkpFQ1RfUFJFRklYPSQocHJvbXB0X2ZvciBTVU1NQVJZX1NVQkpFQ1RfUFJFRklYICJTdWJqZWN0IHByZWZpeCBmb3IgdGhlIGdlbmVyYXRpb24gc3VtbWFyeSBlbWFpbCIpCk5VREdFX1NVQkpFQ1RfUFJFRklYPSQocHJvbXB0X2ZvciBOVURHRV9TVUJKRUNUX1BSRUZJWCAiU3ViamVjdCBwcmVmaXggZm9yIGVhY2ggZGFpbHkgbnVkZ2UgZW1haWwiKQpDT01NSVRfU1VGRklYPSQocHJvbXB0X2ZvciBDT01NSVRfU1VGRklYICJUcmFpbGluZyBsaW5lIGZvciBza2lsbC1nZW5lcmF0ZWQgZ2l0IGNvbW1pdCBtZXNzYWdlcyAob3B0aW9uYWwsIGJsYW5rIGZvciBub25lKSIgbm8pCgp2YWxpZGF0ZV9lbWFpbCAiJHtBTExPV0VEX1JFQ0lQSUVOVH0iICJBTExPV0VEX1JFQ0lQSUVOVCIKdmFsaWRhdGVfZW1haWwgIiR7QUxMT1dFRF9TRU5ERVJ9IiAiQUxMT1dFRF9TRU5ERVIiCgppZiBbWyAhIC1kICIke1JFUE9fUk9PVH0iIF1dOyB0aGVuCiAgICBlY2hvICJFUlJPUjogUkVQT19ST09UIGRvZXMgbm90IGV4aXN0IGFzIGEgZGlyZWN0b3J5OiAke1JFUE9fUk9PVH0iID4mMgogICAgZXhpdCAxCmZpCgplY2hvCmVjaG8gIj09PSBzdW1tYXJ5ID09PSIKZWNobyAiUkVQT19ST09UICAgICAgICAgICAgICA9ICR7UkVQT19ST09UfSIKZWNobyAiQUxMT1dFRF9SRUNJUElFTlQgICAgICA9ICR7QUxMT1dFRF9SRUNJUElFTlR9IgplY2hvICJBTExPV0VEX1NFTkRFUiAgICAgICAgID0gJHtBTExPV0VEX1NFTkRFUn0iCmVjaG8gIlNVTU1BUllfU1VCSkVDVF9QUkVGSVggPSAke1NVTU1BUllfU1VCSkVDVF9QUkVGSVh9IgplY2hvICJOVURHRV9TVUJKRUNUX1BSRUZJWCAgID0gJHtOVURHRV9TVUJKRUNUX1BSRUZJWH0iCmVjaG8gIkNPTU1JVF9TVUZGSVggICAgICAgICAgPSAke0NPTU1JVF9TVUZGSVg6LShub25lKX0iCmVjaG8gIlRBUkdFVCAgICAgICAgICAgICAgICAgPSAke1RBUkdFVH0iCmVjaG8KcmVhZCAtciAtcCAiUHJvY2VlZD8gW3kvTl0gIiBjb25maXJtCmlmIFtbICEgIiR7Y29uZmlybX0iID1+IF5bWXldJCBdXTsgdGhlbgogICAgZWNobyAiQWJvcnRlZC4iCiAgICBleGl0IDEKZmkKCiMgU3Vic3RpdHV0ZSBwbGFjZWhvbGRlcnMgaW4gZWFjaCBmaWxlIHVuZGVyIHRoZSB0ZW1wbGF0ZSB0cmVlIGFuZCB3cml0ZSB0byB0aGUgdGFyZ2V0LgpleHBvcnQgUkVQT19ST09UIEFMTE9XRURfUkVDSVBJRU5UIEFMTE9XRURfU0VOREVSIFNVTU1BUllfU1VCSkVDVF9QUkVGSVggTlVER0VfU1VCSkVDVF9QUkVGSVggQ09NTUlUX1NVRkZJWAoKbWtkaXIgLXAgIiR7VEFSR0VUfSIKCiMgc2hlbGxjaGVjayBkaXNhYmxlPVNDMjAxNgpTVUJTVElUVVRFPScKaW1wb3J0IG9zLCBzeXMKa2V5cyA9IFsiUkVQT19ST09UIiwgIkFMTE9XRURfUkVDSVBJRU5UIiwgIkFMTE9XRURfU0VOREVSIiwKICAgICAgICAiU1VNTUFSWV9TVUJKRUNUX1BSRUZJWCIsICJOVURHRV9TVUJKRUNUX1BSRUZJWCIsICJDT01NSVRfU1VGRklYIl0KZGF0YSA9IHN5cy5zdGRpbi5yZWFkKCkKZm9yIGsgaW4ga2V5czoKICAgIGRhdGEgPSBkYXRhLnJlcGxhY2UoInt7IiArIGsgKyAifX0iLCBvcy5lbnZpcm9uLmdldChrLCAiIikpCnN5cy5zdGRvdXQud3JpdGUoZGF0YSkKJwoKd2hpbGUgSUZTPSByZWFkIC1yIC1kICcnIHNyYzsgZG8KICAgIHJlbD0iJHtzcmMjJHtURU1QTEFURV9ESVJ9L30iCiAgICBkc3Q9IiR7VEFSR0VUfS8ke3JlbH0iCiAgICBta2RpciAtcCAiJChkaXJuYW1lICIke2RzdH0iKSIKICAgIHB5dGhvbjMgLWMgIiR7U1VCU1RJVFVURX0iIDwgIiR7c3JjfSIgPiAiJHtkc3R9IgogICAgIyBQcmVzZXJ2ZSBleGVjdXRhYmxlIGJpdCBpZiBzZXQgb24gc291cmNlCiAgICBpZiBbWyAteCAiJHtzcmN9IiBdXTsgdGhlbiBjaG1vZCAreCAiJHtkc3R9IjsgZmkKZG9uZSA8IDwoZmluZCAiJHtURU1QTEFURV9ESVJ9IiAtdHlwZSBmIC1ub3QgLXBhdGggIiovLnB5dGVzdF9jYWNoZS8qIiAtbm90IC1wYXRoICIqL19fcHljYWNoZV9fLyoiIC1ub3QgLW5hbWUgIioucHljIiAtcHJpbnQwKQoKIyBXcml0ZSB0aGUgY2FjaGUgZm9yIG5leHQgcnVuCnsKICAgIGVjaG8gIiMgQ2FjaGVkIHZhbHVlcyBmcm9tIHRoZSBtb3N0IHJlY2VudCBpbnN0YWxsLnNoIHJ1bi4iCiAgICBlY2hvICIjIFVzZWQgdG8gcHJlLWZpbGwgdGhlIHByb21wdHMgd2hlbiB5b3UgcmUtcnVuIGluc3RhbGwuc2guIgogICAgZWNobyAiIyBHaXRpZ25vcmVkLiIKICAgIGZvciBrZXkgaW4gUkVQT19ST09UIEFMTE9XRURfUkVDSVBJRU5UIEFMTE9XRURfU0VOREVSIFNVTU1BUllfU1VCSkVDVF9QUkVGSVggTlVER0VfU1VCSkVDVF9QUkVGSVggQ09NTUlUX1NVRkZJWDsgZG8KICAgICAgICBwcmludGYgJ0NBQ0hFRF8lcz0lcVxuJyAiJHtrZXl9IiAiJHsha2V5fSIKICAgIGRvbmUKfSA+ICIke0NBQ0hFX0ZJTEV9IgoKZWNobwplY2hvICJXcm90ZSBza2lsbCB0bzogJHtUQVJHRVR9IgplY2hvICJDYWNoZWQgdmFsdWVzIGZvciBuZXh0IHJ1bjogJHtDQUNIRV9GSUxFfSIKZWNobwplY2hvICJOZXh0IHN0ZXA6IHZlcmlmeSBDbGF1ZGUgQ29kZSBjYW4gc2VlIHRoZSBza2lsbDoiCmVjaG8gIiAgbHMgJHtUQVJHRVR9L1NLSUxMLm1kIgplY2hvICIgIGNhdCAke1RBUkdFVH0vU0tJTEwubWQgfCBoZWFkIC01IgplY2hvCmVjaG8gIklmIHlvdXIgc2tpbGxzIGRpcmVjdG9yeSBpcyBzb21ld2hlcmUgb3RoZXIgdGhhbiB+Ly5jbGF1ZGUvc2tpbGxzLywgcnVuOiIKZWNobyAiICAuL2luc3RhbGwuc2ggLS10YXJnZXQgL3BhdGgvdG8veW91ci9jbGF1ZGUvc2tpbGxzL2dlbmVyYXRlLXNsZWVwLW51ZGdlcyIK
+#!/usr/bin/env bash
+#
+# Configure and install the generate-sleep-nudges skill into your Claude Code
+# skills directory. Substitutes per-user values into the skill template and
+# writes the resolved files to a target directory (default: ~/.claude/skills/generate-sleep-nudges).
+#
+# Idempotent: re-running re-prompts using the values from the previous run as
+# defaults, cached in ./.install-cache (gitignored).
+#
+# Usage:
+#   ./install.sh                                # interactive, default target
+#   ./install.sh --target /custom/skills/dir    # write to a different target
+#   ./install.sh --help
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+TEMPLATE_DIR="${SCRIPT_DIR}/skills/generate-sleep-nudges"
+CACHE_FILE="${SCRIPT_DIR}/.install-cache"
+DEFAULT_TARGET="${HOME}/.claude/skills/generate-sleep-nudges"
+TARGET=""
+
+usage() {
+    sed -n '2,/^$/p' "${BASH_SOURCE[0]}" | sed 's/^# \?//'
+    exit 0
+}
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --target) TARGET="$2"; shift 2 ;;
+        --help|-h) usage ;;
+        *) echo "Unknown argument: $1" >&2; exit 2 ;;
+    esac
+done
+
+TARGET="${TARGET:-${DEFAULT_TARGET}}"
+
+if [[ ! -d "${TEMPLATE_DIR}" ]]; then
+    echo "ERROR: template directory not found: ${TEMPLATE_DIR}" >&2
+    echo "Run this script from the sleep-nudge repo root." >&2
+    exit 1
+fi
+
+# Load cached values if present
+declare -A DEFAULTS=(
+    [REPO_ROOT]="${SCRIPT_DIR}"
+    [ALLOWED_RECIPIENT]=""
+    [ALLOWED_SENDER]=""
+    [SUMMARY_SUBJECT_PREFIX]="Sleep Nudge generation summary "
+    [NUDGE_SUBJECT_PREFIX]="Sleep Nudge - "
+    [COMMIT_SUFFIX]=""
+)
+
+if [[ -f "${CACHE_FILE}" ]]; then
+    # shellcheck disable=SC1090
+    source "${CACHE_FILE}"
+    for key in "${!DEFAULTS[@]}"; do
+        cached_var="CACHED_${key}"
+        if [[ -n "${!cached_var:-}" ]]; then
+            DEFAULTS[$key]="${!cached_var}"
+        fi
+    done
+fi
+
+# Prompt for a value with a default. $1 = key, $2 = prompt description, $3 = required (yes/no)
+prompt_for() {
+    local key="$1" desc="$2" required="${3:-yes}" default="${DEFAULTS[$1]}" input
+    while true; do
+        if [[ -n "${default}" ]]; then
+            read -r -p "${desc} [${default}]: " input
+            input="${input:-${default}}"
+        else
+            read -r -p "${desc}: " input
+        fi
+        if [[ "${required}" == "yes" && -z "${input}" ]]; then
+            echo "  (required - please enter a value)"
+            continue
+        fi
+        echo "${input}"
+        return 0
+    done
+}
+
+validate_email() {
+    local value="$1" label="$2"
+    if [[ ! "${value}" =~ ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$ ]]; then
+        echo "ERROR: ${label} is not a valid email address: ${value}" >&2
+        exit 1
+    fi
+}
+
+echo "=== generate-sleep-nudges install ==="
+echo "Template:  ${TEMPLATE_DIR}"
+echo "Target:    ${TARGET}"
+echo
+echo "Press Enter to accept the bracketed default, or type a new value."
+echo
+
+REPO_ROOT=$(prompt_for REPO_ROOT "Path to your local clone of the sleep-nudge repo")
+ALLOWED_RECIPIENT=$(prompt_for ALLOWED_RECIPIENT "Recipient Gmail address (where the post-generation summary email goes)")
+ALLOWED_SENDER=$(prompt_for ALLOWED_SENDER "Sender Gmail address (the account whose App Password the daily mailman uses)")
+SUMMARY_SUBJECT_PREFIX=$(prompt_for SUMMARY_SUBJECT_PREFIX "Subject prefix for the generation summary email")
+NUDGE_SUBJECT_PREFIX=$(prompt_for NUDGE_SUBJECT_PREFIX "Subject prefix for each daily nudge email")
+COMMIT_SUFFIX=$(prompt_for COMMIT_SUFFIX "Trailing line for skill-generated git commit messages (optional, blank for none)" no)
+
+validate_email "${ALLOWED_RECIPIENT}" "ALLOWED_RECIPIENT"
+validate_email "${ALLOWED_SENDER}" "ALLOWED_SENDER"
+
+if [[ ! -d "${REPO_ROOT}" ]]; then
+    echo "ERROR: REPO_ROOT does not exist as a directory: ${REPO_ROOT}" >&2
+    exit 1
+fi
+
+echo
+echo "=== summary ==="
+echo "REPO_ROOT              = ${REPO_ROOT}"
+echo "ALLOWED_RECIPIENT      = ${ALLOWED_RECIPIENT}"
+echo "ALLOWED_SENDER         = ${ALLOWED_SENDER}"
+echo "SUMMARY_SUBJECT_PREFIX = ${SUMMARY_SUBJECT_PREFIX}"
+echo "NUDGE_SUBJECT_PREFIX   = ${NUDGE_SUBJECT_PREFIX}"
+echo "COMMIT_SUFFIX          = ${COMMIT_SUFFIX:-(none)}"
+echo "TARGET                 = ${TARGET}"
+echo
+read -r -p "Proceed? [y/N] " confirm
+if [[ ! "${confirm}" =~ ^[Yy]$ ]]; then
+    echo "Aborted."
+    exit 1
+fi
+
+# Substitute placeholders in each file under the template tree and write to the target.
+export REPO_ROOT ALLOWED_RECIPIENT ALLOWED_SENDER SUMMARY_SUBJECT_PREFIX NUDGE_SUBJECT_PREFIX COMMIT_SUFFIX
+
+mkdir -p "${TARGET}"
+
+# shellcheck disable=SC2016
+SUBSTITUTE='
+import os, sys
+keys = ["REPO_ROOT", "ALLOWED_RECIPIENT", "ALLOWED_SENDER",
+        "SUMMARY_SUBJECT_PREFIX", "NUDGE_SUBJECT_PREFIX", "COMMIT_SUFFIX"]
+data = sys.stdin.read()
+for k in keys:
+    data = data.replace("{{" + k + "}}", os.environ.get(k, ""))
+sys.stdout.write(data)
+'
+
+while IFS= read -r -d '' src; do
+    rel="${src#${TEMPLATE_DIR}/}"
+    dst="${TARGET}/${rel}"
+    mkdir -p "$(dirname "${dst}")"
+    python3 -c "${SUBSTITUTE}" < "${src}" > "${dst}"
+    # Preserve executable bit if set on source
+    if [[ -x "${src}" ]]; then chmod +x "${dst}"; fi
+done < <(find "${TEMPLATE_DIR}" -type f -not -path "*/.pytest_cache/*" -not -path "*/__pycache__/*" -not -name "*.pyc" -print0)
+
+# Write the cache for next run
+{
+    echo "# Cached values from the most recent install.sh run."
+    echo "# Used to pre-fill the prompts when you re-run install.sh."
+    echo "# Gitignored."
+    for key in REPO_ROOT ALLOWED_RECIPIENT ALLOWED_SENDER SUMMARY_SUBJECT_PREFIX NUDGE_SUBJECT_PREFIX COMMIT_SUFFIX; do
+        printf 'CACHED_%s=%q\n' "${key}" "${!key}"
+    done
+} > "${CACHE_FILE}"
+
+echo
+echo "Wrote skill to: ${TARGET}"
+echo "Cached values for next run: ${CACHE_FILE}"
+echo
+echo "Next step: verify Claude Code can see the skill:"
+echo "  ls ${TARGET}/SKILL.md"
+echo "  cat ${TARGET}/SKILL.md | head -5"
+echo
+echo "If your skills directory is somewhere other than ~/.claude/skills/, run:"
+echo "  ./install.sh --target /path/to/your/claude/skills/generate-sleep-nudges"
